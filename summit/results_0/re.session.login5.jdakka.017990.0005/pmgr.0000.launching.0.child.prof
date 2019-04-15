@@ -1,0 +1,13 @@
+#time,event,comp,thread,uid,state,msg
+1554418679.8035,sync_abs,pmgr.0000.launching.0.child,MainThread,,,login5.summit.olcf.ornl.gov:127.0.0.1:1554418679.78:1554418679.79:ntp
+1554418679.9338,component_init,pmgr.0000.launching.0.child,MainThread,,,
+1554418684.4534,get,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1554418684.4536,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1554418684.4538,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1554418688.5048,staging_in_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1554418697.4257,staging_in_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1554418697.4257,submission_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1554418701.8196,submission_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1554418701.8196,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1554418701.8199,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1554424714.2166,flush,pmgr.0000.launching.0.child,MainThread,,,

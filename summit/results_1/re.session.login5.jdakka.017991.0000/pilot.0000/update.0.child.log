@@ -1,0 +1,262 @@
+2019-04-04 23:27:59,725: update.0.child      : update.0                        : MainThread     : INFO    : python.interpreter   version: 2.7.5 (default, May 31 2018, 09:45:54) [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+2019-04-04 23:27:59,726: update.0.child      : update.0                        : MainThread     : INFO    :                      pid/tid: 114688/MainThread
+2019-04-04 23:27:59,726: update.0.child      : update.0                        : MainThread     : INFO    : initialize update.0.child
+2019-04-04 23:27:59,737: update.0.child      : update.0                        : MainThread     : INFO    : cfg: {'agent_launch_method': 'JSRUN',
+ 'agent_name': 'agent_0',
+ 'agents': {},
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://128.219.134.82:38491',
+                                       'addr_out': 'tcp://128.219.134.82:43469',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://128.219.134.82:33813',
+                                       'addr_out': 'tcp://128.219.134.82:37315',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://128.219.134.82:36299',
+                                        'addr_out': 'tcp://128.219.134.82:38165',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://128.219.134.82:33777',
+                                           'addr_out': 'tcp://128.219.134.82:34765',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://128.219.134.82:40333',
+                                            'addr_out': 'tcp://128.219.134.82:40073',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://128.219.134.82:37041',
+                                         'addr_out': 'tcp://128.219.134.82:38721',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://128.219.134.82:41967',
+                                'addr_out': 'tcp://128.219.134.82:40577',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://128.219.134.82:36893',
+                            'addr_out': 'tcp://128.219.134.82:39727',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://128.219.134.82:33393',
+                              'addr_out': 'tcp://128.219.134.82:43057',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'cname': 'UpdateWorker',
+ 'components': {},
+ 'cores': 42,
+ 'cores_per_node': 0,
+ 'count': 1,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://user:user@ds223760.mlab.com:23760/adaptivity',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 6,
+ 'lfs_path_per_node': None,
+ 'lfs_size_per_node': 0,
+ 'logdir': '.',
+ 'lrms': 'LSF_SUMMIT',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_socket': 42,
+               'gpus_per_socket': 6,
+               'lfs_per_node': {'path': None, 'size': 0},
+               'lm_info': {},
+               'name': 'LSF_SUMMIT',
+               'node_list': [['h36n08', 1]],
+               'sockets_per_node': 1},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'JSRUN',
+ 'number': 0,
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/ccs/home/jdakka/radical.pilot.sandbox/re.session.login5.jdakka.017991.0000/pilot.0000/',
+ 'resource_cfg': {'agent_config': 'default',
+                  'agent_launch_method': 'JSRUN',
+                  'agent_scheduler': 'CONTINUOUS_SUMMIT',
+                  'agent_spawner': 'POPEN',
+                  'agent_type': 'multicore',
+                  'default_queue': 'batch',
+                  'description': 'The Cray XK7 supercomputer located at the Oak Ridge Leadership Computing Facility (OLCF), (https://www.olcf.ornl.gov/titan/)',
+                  'filesystem_endpoint': 'file://localhost/',
+                  'gpus_per_node': 6,
+                  'job_manager_endpoint': 'lsfsummit://localhost/',
+                  'job_manager_hop': 'fork://localhost/',
+                  'label': 'ornl.summit',
+                  'lfs_per_node': '/tmp',
+                  'local': {'filesystem_endpoint': 'file://localhost/',
+                            'job_manager_endpoint': 'lsfsummit://localhost/',
+                            'job_manager_hop': 'fork://localhost/'},
+                  'lrms': 'LSF_SUMMIT',
+                  'mpi_launch_method': 'JSRUN',
+                  'notes': 'Requires the use of an RSA SecurID on every connection.',
+                  'pre_bootstrap_0': [],
+                  'pre_bootstrap_1': [],
+                  'python_dist': 'default',
+                  'rp_version': 'local',
+                  'schemas': ['local'],
+                  'sockets_per_node': 2,
+                  'stage_cacerts': True,
+                  'task_launch_method': 'JSRUN',
+                  'valid_roots': ['/ccs/home/$USER'],
+                  'virtenv_dist': 'default',
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/ccs/home/jdakka/radical.pilot.sandbox',
+ 'runtime': 120,
+ 'scheduler': 'CONTINUOUS_SUMMIT',
+ 'session_id': 're.session.login5.jdakka.017991.0000',
+ 'session_sandbox': '/ccs/home/jdakka/radical.pilot.sandbox/re.session.login5.jdakka.017991.0000',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'JSRUN',
+ 'uid': 'agent_0',
+ 'workdir': '/autofs/nccs-svm1_home1/jdakka/radical.pilot.sandbox/re.session.login5.jdakka.017991.0000/pilot.0000'}
+2019-04-04 23:27:59,737: update.0.child      : update.0                        : MainThread     : DEBUG   : start components: {}
+2019-04-04 23:27:59,737: update.0.child      : update.0                        : MainThread     : DEBUG   : alive check in term
+2019-04-04 23:27:59,737: update.0.child      : update.0                        : MainThread     : DEBUG   : START: update.0.child register publisher log_pubsub
+2019-04-04 23:27:59,737: update.0.child      : update.0                        : MainThread     : DEBUG   : using addr tcp://128.219.134.82:36893 for pubsub log_pubsub
+2019-04-04 23:27:59,741: update.0.child      : update.0                        : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0003
+2019-04-04 23:27:59,741: update.0.child      : update.0                        : MainThread     : DEBUG   : alive check in term
+2019-04-04 23:27:59,741: update.0.child      : update.0                        : MainThread     : DEBUG   : START: update.0.child register publisher state_pubsub
+2019-04-04 23:27:59,741: update.0.child      : update.0                        : MainThread     : DEBUG   : using addr tcp://128.219.134.82:33393 for pubsub state_pubsub
+2019-04-04 23:27:59,745: update.0.child      : update.0                        : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0003
+2019-04-04 23:27:59,745: update.0.child      : update.0                        : MainThread     : DEBUG   : alive check in term
+2019-04-04 23:27:59,745: update.0.child      : update.0                        : MainThread     : DEBUG   : START: update.0.child register publisher control_pubsub
+2019-04-04 23:27:59,745: update.0.child      : update.0                        : MainThread     : DEBUG   : using addr tcp://128.219.134.82:41967 for pubsub control_pubsub
+2019-04-04 23:27:59,749: update.0.child      : update.0                        : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0003
+2019-04-04 23:27:59,750: update.0.child      : update.0                        : MainThread     : DEBUG   : alive check in term
+2019-04-04 23:27:59,750: update.0.child      : update.0                        : MainThread     : DEBUG   : START: update.0.child register subscriber update.0.child.subscriber._cancel_monitor_cb
+2019-04-04 23:27:59,750: update.0.child      : update.0                        : MainThread     : DEBUG   : using addr tcp://128.219.134.82:40577 for pubsub control_pubsub
+2019-04-04 23:27:59,754: update.0.child      : update.0                        : MainThread     : DEBUG   : parent name: update.0.child.subscriber._cancel_monitor_cb
+2019-04-04 23:27:59,754: update.0.child      : update.0                        : MainThread     : DEBUG   : start thread
+2019-04-04 23:27:59,755: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: update.0.child.subscriber._cancel_monitor_cb.thread
+2019-04-04 23:27:59,755: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2019-04-04 23:27:59,755: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,755: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2019-04-04 23:27:59,755: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2019-04-04 23:27:59,755: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [update.0.child.subscriber._cancel_monitor_cb.thread] alive
+2019-04-04 23:27:59,756: update.0.child      : update.0                        : MainThread     : INFO    : get msg: alive
+2019-04-04 23:27:59,756: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,756: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:27:59,756: update.0.child      : update.0                        : MainThread     : DEBUG   : child thread update.0.child.subscriber._cancel_monitor_cb started
+2019-04-04 23:27:59,756: update.0.child      : update.0                        : MainThread     : DEBUG   : update.0.child registered control_pubsub subscriber update.0.child.subscriber._cancel_monitor_cb
+2019-04-04 23:27:59,874: update.0.child      : update.0                        : MainThread     : DEBUG   : alive check in term
+2019-04-04 23:27:59,874: update.0.child      : update.0                        : MainThread     : DEBUG   : START: update.0.child register subscriber update.0.child.subscriber._state_cb
+2019-04-04 23:27:59,875: update.0.child      : update.0                        : MainThread     : DEBUG   : using addr tcp://128.219.134.82:43057 for pubsub state_pubsub
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : MainThread     : DEBUG   : parent name: update.0.child.subscriber._state_cb
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : MainThread     : DEBUG   : start thread
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: DEBUG   : child name: update.0.child.subscriber._state_cb.thread
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: INFO    : child (me) initializing
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: DEBUG   : ru_initialize_child (NOOP)
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: INFO    : send alive
+2019-04-04 23:27:59,879: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: INFO    : put message: [update.0.child.subscriber._state_cb.thread] alive
+2019-04-04 23:27:59,880: update.0.child      : update.0                        : MainThread     : INFO    : get msg: alive
+2019-04-04 23:27:59,880: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,880: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:27:59,880: update.0.child      : update.0                        : MainThread     : DEBUG   : child thread update.0.child.subscriber._state_cb started
+2019-04-04 23:27:59,880: update.0.child      : update.0                        : MainThread     : DEBUG   : update.0.child registered state_pubsub subscriber update.0.child.subscriber._state_cb
+2019-04-04 23:27:59,880: update.0.child      : update.0                        : MainThread     : DEBUG   : alive check in term
+2019-04-04 23:27:59,880: update.0.child      : update.0                        : MainThread     : DEBUG   : START: update.0.child register idler update.0.child.idler._idle_cb
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : MainThread     : DEBUG   : parent name: update.0.child.idler._idle_cb
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : MainThread     : DEBUG   : start thread
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : update.0.child.idler._idle_cb: DEBUG   : child name: update.0.child.idler._idle_cb.thread
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : update.0.child.idler._idle_cb: INFO    : child (me) initializing
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : update.0.child.idler._idle_cb: DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : update.0.child.idler._idle_cb: DEBUG   : ru_initialize_child (NOOP)
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : update.0.child.idler._idle_cb: INFO    : send alive
+2019-04-04 23:27:59,881: update.0.child      : update.0                        : update.0.child.idler._idle_cb: INFO    : put message: [update.0.child.idler._idle_cb.thread] alive
+2019-04-04 23:27:59,882: update.0.child      : update.0                        : MainThread     : INFO    : get msg: alive
+2019-04-04 23:27:59,882: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,882: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:27:59,882: update.0.child      : update.0                        : MainThread     : DEBUG   : child thread update.0.child.idler._idle_cb started
+2019-04-04 23:27:59,882: update.0.child      : update.0                        : MainThread     : DEBUG   : update.0.child registered idler update.0.child.idler._idle_cb
+2019-04-04 23:27:59,882: update.0.child      : update.0                        : MainThread     : INFO    : child (me) initializing
+2019-04-04 23:27:59,882: update.0.child      : update.0                        : MainThread     : DEBUG   : parent name: update.0.child.watch
+2019-04-04 23:27:59,883: update.0.child      : update.0                        : MainThread     : DEBUG   : start thread
+2019-04-04 23:27:59,883: update.0.child      : update.0                        : update.0.child.watch: DEBUG   : child name: update.0.child.watch.thread
+2019-04-04 23:27:59,883: update.0.child      : update.0                        : update.0.child.watch: INFO    : child (me) initializing
+2019-04-04 23:27:59,883: update.0.child      : update.0                        : update.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,883: update.0.child      : update.0                        : update.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2019-04-04 23:27:59,883: update.0.child      : update.0                        : update.0.child.watch: INFO    : send alive
+2019-04-04 23:27:59,883: update.0.child      : update.0                        : update.0.child.watch: INFO    : put message: [update.0.child.watch.thread] alive
+2019-04-04 23:27:59,884: update.0.child      : update.0                        : MainThread     : INFO    : get msg: alive
+2019-04-04 23:27:59,884: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:27:59,884: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:27:59,884: update.0.child      : update.0                        : MainThread     : DEBUG   : child thread update.0.child.watch started
+2019-04-04 23:27:59,884: update.0.child      : update.0                        : MainThread     : INFO    : child (me) is alive
+2019-04-04 23:27:59,884: update.0.child      : update.0                        : MainThread     : INFO    : send alive
+2019-04-04 23:27:59,884: update.0.child      : update.0                        : MainThread     : INFO    : send message: [update.0.child] alive
+2019-04-04 23:28:02,265: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: DEBUG   : bulk update result: {'nModified': 1, 'nUpserted': 0, 'nMatched': 1, 'writeErrors': [], 'upserted': [], 'writeConcernErrors': [], 'nRemoved': 0, 'nInserted': 0}
+2019-04-04 23:28:16,664: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: DEBUG   : bulk update result: {'nModified': 1, 'nUpserted': 0, 'nMatched': 1, 'writeErrors': [], 'upserted': [], 'writeConcernErrors': [], 'nRemoved': 0, 'nInserted': 0}
+2019-04-04 23:28:17,925: update.0.child      : update.0                        : update.0.child.idler._idle_cb: DEBUG   : bulk update result: {'nModified': 4, 'nUpserted': 0, 'nMatched': 4, 'writeErrors': [], 'upserted': [], 'writeConcernErrors': [], 'nRemoved': 0, 'nInserted': 0}
+2019-04-05 01:05:12,780: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: DEBUG   : bulk update result: {'nModified': 1, 'nUpserted': 0, 'nMatched': 1, 'writeErrors': [], 'upserted': [], 'writeConcernErrors': [], 'nRemoved': 0, 'nInserted': 0}
+2019-04-05 01:05:13,866: update.0.child      : update.0                        : update.0.child.idler._idle_cb: DEBUG   : bulk update result: {'nModified': 2, 'nUpserted': 0, 'nMatched': 2, 'writeErrors': [], 'upserted': [], 'writeConcernErrors': [], 'nRemoved': 0, 'nInserted': 0}
+2019-04-05 01:05:41,739: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : got termination command
+2019-04-05 01:05:42,009: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : stop update.0.child (114688 : 114688 : update.0.child.subscriber._cancel_monitor_cb) [radical.pilot.worker.update.Update.stop]
+2019-04-05 01:05:42,010: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  114688 -> 114688 [update.0.child]
+2019-04-05 01:05:42,010: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : send message: [update.0.child] STOP
+2019-04-05 01:05:42,011: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : update.0.child unregister idler update.0.child.idler._idle_cb
+2019-04-05 01:05:42,011: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for update.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 01:05:42,011: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : update.0.child unregistered idler update.0.child.idler._idle_cb
+2019-04-05 01:05:42,011: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : update.0.child unregister subscriber update.0.child.subscriber._state_cb
+2019-04-05 01:05:42,011: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered subscriber update.0.child.subscriber._state_cb
+2019-04-05 01:05:42,011: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_common()
+2019-04-05 01:05:42,011: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : update.0.child unregister publisher log_pubsub
+2019-04-05 01:05:42,012: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher log_pubsub
+2019-04-05 01:05:42,012: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : update.0.child unregister publisher state_pubsub
+2019-04-05 01:05:42,013: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher state_pubsub
+2019-04-05 01:05:42,013: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : update.0.child unregister publisher control_pubsub
+2019-04-05 01:05:42,014: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher control_pubsub
+2019-04-05 01:05:42,014: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : update.0.child close prof
+2019-04-05 01:05:42,014: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for update.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 01:05:42,014: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : child calls stop()
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for update.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for update.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for update.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for update.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.idler._idle_cb: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.idler._idle_cb: DEBUG   : ru_finalize_common (NOOP)
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.idler._idle_cb: INFO    : put message: [update.0.child.idler._idle_cb.thread] terminating
+2019-04-05 01:05:42,015: update.0.child      : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [update.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : DEBUG   : TERM : update.0.child unregister idler update.0.child.idler._idle_cb
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : WARNING : timed cb update.0.child.idler._idle_cb is not registered
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : DEBUG   : TERM : update.0.child unregister subscriber update.0.child.subscriber._state_cb
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : WARNING : subscriber _state_cb is not registered
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_finalize_common()
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : WARNING : publisher log_pubsub is not registered
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : WARNING : publisher state_pubsub is not registered
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : WARNING : publisher control_pubsub is not registered
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : DEBUG   : update.0.child close prof
+2019-04-05 01:05:42,016: update.0.child      : update.0                        : MainThread     : INFO    : send message: [update.0.child] terminating
+2019-04-05 01:05:42,161: update.0.child      : update.0                        : update.0.child.watch: WARNING : %s died
+2019-04-05 01:05:42,161: update.0.child      : update.0                        : update.0.child.watch: INFO    : watcher closes
+2019-04-05 01:05:42,161: update.0.child      : update.0                        : update.0.child.watch: INFO    : put message: [update.0.child.watch.thread] work finished
+2019-04-05 01:05:42,161: update.0.child      : update.0                        : update.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 01:05:42,161: update.0.child      : update.0                        : update.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2019-04-05 01:05:42,161: update.0.child      : update.0                        : update.0.child.watch: INFO    : put message: [update.0.child.watch.thread] terminating
+2019-04-05 01:05:42,180: update.0.child      : update.0                        : MainThread     : INFO    : parent stops child
+2019-04-05 01:05:42,180: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 01:05:42,180: update.0.child      : update.0                        : MainThread     : INFO    : parent stops child
+2019-04-05 01:05:42,180: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 01:05:42,181: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 01:05:42,181: update.0.child      : update.0                        : update.0.child.subscriber._state_cb: INFO    : put message: [update.0.child.subscriber._state_cb.thread] terminating
+2019-04-05 01:05:42,182: update.0.child      : update.0                        : MainThread     : INFO    : parent stops child
+2019-04-05 01:05:42,182: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 01:05:42,182: update.0.child      : update.0                        : MainThread     : DEBUG   : ru_finalize_common (NOOP)

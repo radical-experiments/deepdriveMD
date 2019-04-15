@@ -1,0 +1,278 @@
+2019-04-05 10:43:28,183: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : python.interpreter   version: 2.7.5 (default, May 31 2018, 09:45:54) [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+2019-04-05 10:43:28,184: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    :                      pid/tid: 6983/MainThread
+2019-04-05 10:43:28,184: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : initialize agent_0.scheduling.0.child
+2019-04-05 10:43:28,193: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : cfg: {'agent_launch_method': 'JSRUN',
+ 'agent_name': 'agent_0',
+ 'agents': {},
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://128.219.134.82:41927',
+                                       'addr_out': 'tcp://128.219.134.82:39379',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://128.219.134.82:46165',
+                                       'addr_out': 'tcp://128.219.134.82:37671',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://128.219.134.82:34395',
+                                        'addr_out': 'tcp://128.219.134.82:44399',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://128.219.134.82:33779',
+                                           'addr_out': 'tcp://128.219.134.82:32931',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://128.219.134.82:36093',
+                                            'addr_out': 'tcp://128.219.134.82:37969',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://128.219.134.82:43445',
+                                         'addr_out': 'tcp://128.219.134.82:36401',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://128.219.134.82:44021',
+                                'addr_out': 'tcp://128.219.134.82:35201',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://128.219.134.82:44089',
+                            'addr_out': 'tcp://128.219.134.82:43715',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://128.219.134.82:42485',
+                              'addr_out': 'tcp://128.219.134.82:33399',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'cname': 'AgentSchedulingComponent',
+ 'components': {},
+ 'cores': 42,
+ 'cores_per_node': 0,
+ 'count': 1,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://user:user@ds223760.mlab.com:23760/adaptivity',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 6,
+ 'lfs_path_per_node': None,
+ 'lfs_size_per_node': 0,
+ 'logdir': '.',
+ 'lrms': 'LSF_SUMMIT',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_socket': 42,
+               'gpus_per_socket': 6,
+               'lfs_per_node': {'path': None, 'size': 0},
+               'lm_info': {},
+               'name': 'LSF_SUMMIT',
+               'node_list': [['d15n11', 1]],
+               'sockets_per_node': 1},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'JSRUN',
+ 'number': 0,
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/ccs/home/jdakka/radical.pilot.sandbox/re.session.login5.jdakka.017991.0001/pilot.0000/',
+ 'resource_cfg': {'agent_config': 'default',
+                  'agent_launch_method': 'JSRUN',
+                  'agent_scheduler': 'CONTINUOUS_SUMMIT',
+                  'agent_spawner': 'POPEN',
+                  'agent_type': 'multicore',
+                  'default_queue': 'batch',
+                  'description': 'The Cray XK7 supercomputer located at the Oak Ridge Leadership Computing Facility (OLCF), (https://www.olcf.ornl.gov/titan/)',
+                  'filesystem_endpoint': 'file://localhost/',
+                  'gpus_per_node': 6,
+                  'job_manager_endpoint': 'lsfsummit://localhost/',
+                  'job_manager_hop': 'fork://localhost/',
+                  'label': 'ornl.summit',
+                  'lfs_per_node': '/tmp',
+                  'local': {'filesystem_endpoint': 'file://localhost/',
+                            'job_manager_endpoint': 'lsfsummit://localhost/',
+                            'job_manager_hop': 'fork://localhost/'},
+                  'lrms': 'LSF_SUMMIT',
+                  'mpi_launch_method': 'JSRUN',
+                  'notes': 'Requires the use of an RSA SecurID on every connection.',
+                  'pre_bootstrap_0': [],
+                  'pre_bootstrap_1': [],
+                  'python_dist': 'default',
+                  'rp_version': 'local',
+                  'schemas': ['local'],
+                  'sockets_per_node': 2,
+                  'stage_cacerts': True,
+                  'task_launch_method': 'JSRUN',
+                  'valid_roots': ['/ccs/home/$USER'],
+                  'virtenv_dist': 'default',
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/ccs/home/jdakka/radical.pilot.sandbox',
+ 'runtime': 120,
+ 'scheduler': 'CONTINUOUS_SUMMIT',
+ 'session_id': 're.session.login5.jdakka.017991.0001',
+ 'session_sandbox': '/ccs/home/jdakka/radical.pilot.sandbox/re.session.login5.jdakka.017991.0001',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'JSRUN',
+ 'uid': 'agent_0',
+ 'workdir': '/autofs/nccs-svm1_home1/jdakka/radical.pilot.sandbox/re.session.login5.jdakka.017991.0001/pilot.0000'}
+2019-04-05 10:43:28,193: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start components: {}
+2019-04-05 10:43:28,194: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,194: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher log_pubsub
+2019-04-05 10:43:28,194: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:44089 for pubsub log_pubsub
+2019-04-05 10:43:28,197: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0001
+2019-04-05 10:43:28,197: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,198: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher state_pubsub
+2019-04-05 10:43:28,198: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:42485 for pubsub state_pubsub
+2019-04-05 10:43:28,201: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0001
+2019-04-05 10:43:28,201: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,201: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher control_pubsub
+2019-04-05 10:43:28,201: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:44021 for pubsub control_pubsub
+2019-04-05 10:43:28,317: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0001
+2019-04-05 10:43:28,319: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,319: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2019-04-05 10:43:28,319: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:35201 for pubsub control_pubsub
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2019-04-05 10:43:28,323: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread] alive
+2019-04-05 10:43:28,324: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2019-04-05 10:43:28,324: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,325: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-05 10:43:28,325: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber._cancel_monitor_cb started
+2019-04-05 10:43:28,325: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered control_pubsub subscriber agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2019-04-05 10:43:28,325: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,325: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:44399 for input agent_scheduling_queue
+2019-04-05 10:43:28,329: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered input agent_0.scheduling.0.child._schedule_units.AGENT_SCHEDULING_PENDING
+2019-04-05 10:43:28,329: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register input AGENT_SCHEDULING_PENDING: agent_0.scheduling.0.child._schedule_units.AGENT_SCHEDULING_PENDING
+2019-04-05 10:43:28,329: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered worker _schedule_units [AGENT_SCHEDULING_PENDING]
+2019-04-05 10:43:28,329: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,329: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register output AGENT_EXECUTING_PENDING
+2019-04-05 10:43:28,329: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:41927 for output agent_executing_queue
+2019-04-05 10:43:28,333: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered output    : AGENT_EXECUTING_PENDING : agent_executing_queue : agent.executing.queue.input.0000
+2019-04-05 10:43:28,333: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,333: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber.unschedule_cb
+2019-04-05 10:43:28,333: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:36401 for pubsub agent_unschedule_pubsub
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber.unschedule_cb
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber.unschedule_cb.thread
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : child (me) initializing
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_initialize_child (NOOP)
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : send alive
+2019-04-05 10:43:28,337: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.unschedule_cb.thread] alive
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber.unschedule_cb started
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered agent_unschedule_pubsub subscriber agent_0.scheduling.0.child.subscriber.unschedule_cb
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher agent_schedule_pubsub
+2019-04-05 10:43:28,338: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:46165 for pubsub agent_schedule_pubsub
+2019-04-05 10:43:28,342: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : agent_schedule_pubsub : agent.schedule.pubsub.pub.0000
+2019-04-05 10:43:28,342: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2019-04-05 10:43:28,342: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber.schedule_cb
+2019-04-05 10:43:28,342: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://128.219.134.82:37671 for pubsub agent_schedule_pubsub
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber.schedule_cb
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber.schedule_cb.thread
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : child (me) initializing
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_initialize_child (NOOP)
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : send alive
+2019-04-05 10:43:28,346: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.schedule_cb.thread] alive
+2019-04-05 10:43:28,347: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2019-04-05 10:43:28,347: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,347: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-05 10:43:28,347: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber.schedule_cb started
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered agent_schedule_pubsub subscriber agent_0.scheduling.0.child.subscriber.schedule_cb
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : slot status after  init      : |------------------------------------------:------|
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : child (me) initializing
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.watch
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : child name: agent_0.scheduling.0.child.watch.thread
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : child (me) initializing
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : send alive
+2019-04-05 10:43:28,348: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] alive
+2019-04-05 10:43:28,349: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2019-04-05 10:43:28,349: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:28,349: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-05 10:43:28,349: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.watch started
+2019-04-05 10:43:28,349: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : child (me) is alive
+2019-04-05 10:43:28,349: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send alive
+2019-04-05 10:43:28,349: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send message: [agent_0.scheduling.0.child] alive
+2019-04-05 10:43:42,669: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000000)
+2019-04-05 10:43:42,669: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2019-04-05 10:43:42,670: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000000: |#-----------------------------------------:#-----|
+2019-04-05 10:43:42,670: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000000 [1/1] : {'cores_per_node': 42,
+ 'gpus_per_node': 6,
+ 'lfs_per_node': {'path': None, 'size': 0},
+ 'lm_info': {},
+ 'nodes': [{'core_map': [[0]],
+            'gpu_map': [[0]],
+            'lfs': {'path': None, 'size': 0},
+            'name': 'd15n11',
+            'uid': 1}]}
+2019-04-05 10:43:42,670: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2019-04-05 10:43:42,671: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2019-04-05 12:20:38,032: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000000: |#-----------------------------------------:#-----|
+2019-04-05 12:20:38,037: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000000: |------------------------------------------:------|
+2019-04-05 12:21:11,140: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : got termination command
+2019-04-05 12:21:11,454: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : stop agent_0.scheduling.0.child (6983 : 6983 : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb) [radical.pilot.utils.component.ContinuousSummit._cancel_monitor_cb]
+2019-04-05 12:21:11,455: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6983 -> 6983 [agent_0.scheduling.0.child]
+2019-04-05 12:21:11,455: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : send message: [agent_0.scheduling.0.child] STOP
+2019-04-05 12:21:11,455: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_common()
+2019-04-05 12:21:11,455: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher log_pubsub
+2019-04-05 12:21:11,456: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher log_pubsub
+2019-04-05 12:21:11,456: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher state_pubsub
+2019-04-05 12:21:11,457: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher state_pubsub
+2019-04-05 12:21:11,457: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher control_pubsub
+2019-04-05 12:21:11,458: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher control_pubsub
+2019-04-05 12:21:11,458: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : agent_0.scheduling.0.child close prof
+2019-04-05 12:21:11,459: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 12:21:11,459: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : child calls stop()
+2019-04-05 12:21:11,459: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 12:21:11,459: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 12:21:11,459: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 12:21:11,460: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2019-04-05 12:21:11,460: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 12:21:11,460: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2019-04-05 12:21:11,553: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: WARNING : %s died
+2019-04-05 12:21:11,553: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : watcher closes
+2019-04-05 12:21:11,553: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] work finished
+2019-04-05 12:21:11,554: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 12:21:11,554: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2019-04-05 12:21:11,554: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] terminating
+2019-04-05 12:21:11,578: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 12:21:11,579: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.unschedule_cb.thread] terminating
+2019-04-05 12:21:11,580: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_finalize_child (NOOP)
+2019-04-05 12:21:11,581: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.schedule_cb.thread] terminating
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_common()
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher log_pubsub is not registered
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher state_pubsub is not registered
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher control_pubsub is not registered
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child close prof
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send message: [agent_0.scheduling.0.child] terminating
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2019-04-05 12:21:11,806: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 12:21:11,807: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2019-04-05 12:21:11,807: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 12:21:11,807: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2019-04-05 12:21:11,807: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

@@ -1,0 +1,11 @@
+#time,event,comp,thread,uid,state,msg
+1554331411.9342,sync_abs,umgr.0000.staging.input.0.child,Thread-1,,,login3.summit.olcf.ornl.gov:127.0.0.1:1554331411.88:1554331411.88:ntp
+1554331412.0414,component_init,umgr.0000.staging.input.0.child,Thread-1,,,
+1554331412.8843,get,umgr.0000.staging.input.0.child,Thread-1,unit.000000,UMGR_STAGING_INPUT_PENDING,
+1554331412.8845,advance,umgr.0000.staging.input.0.child,Thread-1,unit.000000,UMGR_STAGING_INPUT,
+1554331412.8846,publish,umgr.0000.staging.input.0.child,Thread-1,unit.000000,UMGR_STAGING_INPUT,
+1554331412.8847,advance,umgr.0000.staging.input.0.child,Thread-1,unit.000000,AGENT_STAGING_INPUT_PENDING,
+1554331412.8848,publish,umgr.0000.staging.input.0.child,Thread-1,unit.000000,AGENT_STAGING_INPUT_PENDING,
+1554331412.8848,drop,umgr.0000.staging.input.0.child,Thread-1,unit.000000,AGENT_STAGING_INPUT_PENDING,
+1554331449.9452,component_final,umgr.0000.staging.input.0.child,Thread-1,,,
+1554331449.9453,END,umgr.0000.staging.input.0.child,Thread-1,,,

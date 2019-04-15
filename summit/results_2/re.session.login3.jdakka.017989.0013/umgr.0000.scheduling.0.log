@@ -1,0 +1,83 @@
+2019-04-03 18:43:32,479: umgr.0000.scheduling.0: task-manager                    : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-03 18:43:32,480: umgr.0000.scheduling.0: task-manager                    : Thread-1       : INFO    :                      pid/tid: 6870/Thread-1
+2019-04-03 18:43:32,480: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : alive check in term
+2019-04-03 18:43:32,480: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : start process
+2019-04-03 18:43:32,615: umgr.0000.scheduling.0: task-manager                    : Thread-1       : INFO    : recv message: alive
+2019-04-03 18:43:32,615: umgr.0000.scheduling.0: task-manager                    : Thread-1       : INFO    : initialize umgr.0000.scheduling.0
+2019-04-03 18:43:32,621: umgr.0000.scheduling.0: task-manager                    : Thread-1       : INFO    : cfg: {'agents': {},
+ u'bridges': {u'control_pubsub': {'addr_in': 'tcp://128.219.134.73:45491',
+                                  'addr_out': 'tcp://128.219.134.73:44933',
+                                  u'bulk_size': 0,
+                                  u'log_level': u'error',
+                                  u'stall_hwm': 1},
+              u'log_pubsub': {'addr_in': 'tcp://128.219.134.73:35611',
+                              'addr_out': 'tcp://128.219.134.73:33357',
+                              u'bulk_size': 0,
+                              u'log_level': u'error',
+                              u'stall_hwm': 1},
+              u'state_pubsub': {'addr_in': 'tcp://128.219.134.73:46545',
+                                'addr_out': 'tcp://128.219.134.73:35123',
+                                u'bulk_size': 0,
+                                u'log_level': u'error',
+                                u'stall_hwm': 1},
+              u'umgr_reschedule_pubsub': {'addr_in': 'tcp://128.219.134.73:42927',
+                                          'addr_out': 'tcp://128.219.134.73:40245',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1},
+              u'umgr_scheduling_queue': {'addr_in': 'tcp://128.219.134.73:33857',
+                                         'addr_out': 'tcp://128.219.134.73:43979',
+                                         u'bulk_size': 0,
+                                         u'log_level': u'error',
+                                         u'stall_hwm': 1},
+              u'umgr_staging_input_queue': {'addr_in': 'tcp://128.219.134.73:43731',
+                                            'addr_out': 'tcp://128.219.134.73:32871',
+                                            u'bulk_size': 0,
+                                            u'log_level': u'error',
+                                            u'stall_hwm': 1},
+              u'umgr_staging_output_queue': {'addr_in': 'tcp://128.219.134.73:40543',
+                                             'addr_out': 'tcp://128.219.134.73:44965',
+                                             u'bulk_size': 0,
+                                             u'log_level': u'error',
+                                             u'stall_hwm': 1},
+              u'umgr_unschedule_pubsub': {'addr_in': 'tcp://128.219.134.73:42559',
+                                          'addr_out': 'tcp://128.219.134.73:39103',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1}},
+ u'bulk_collection_size': 100,
+ u'bulk_collection_time': 1.0,
+ 'cname': u'UMGRSchedulingComponent',
+ u'components': {},
+ u'count': 1,
+ u'db_poll_sleeptime': 1.0,
+ 'number': 0,
+ 'owner': 'umgr.0000',
+ u'scheduler': u'round_robin',
+ 'uid': 'umgr.0000'}
+2019-04-03 18:43:32,622: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : alive check in term
+2019-04-03 18:43:32,622: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : START: umgr.0000.scheduling.0 register publisher log_pubsub
+2019-04-03 18:43:32,623: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : using addr tcp://128.219.134.73:35611 for pubsub log_pubsub
+2019-04-03 18:43:32,625: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0005
+2019-04-03 18:43:32,626: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : alive check in term
+2019-04-03 18:43:32,626: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : START: umgr.0000.scheduling.0 register publisher state_pubsub
+2019-04-03 18:43:32,626: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : using addr tcp://128.219.134.73:46545 for pubsub state_pubsub
+2019-04-03 18:43:32,628: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0005
+2019-04-03 18:43:32,628: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : alive check in term
+2019-04-03 18:43:32,628: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : START: umgr.0000.scheduling.0 register publisher control_pubsub
+2019-04-03 18:43:32,628: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : using addr tcp://128.219.134.73:45491 for pubsub control_pubsub
+2019-04-03 18:43:32,630: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0005
+2019-04-03 18:43:32,630: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : parent name: umgr.0000.scheduling.0.watch
+2019-04-03 18:43:32,631: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : start thread
+2019-04-03 18:43:32,631: umgr.0000.scheduling.0: task-manager                    : umgr.0000.scheduling.0.watch: DEBUG   : child name: umgr.0000.scheduling.0.watch.thread
+2019-04-03 18:43:32,631: umgr.0000.scheduling.0: task-manager                    : umgr.0000.scheduling.0.watch: INFO    : child (me) initializing
+2019-04-03 18:43:32,631: umgr.0000.scheduling.0: task-manager                    : umgr.0000.scheduling.0.watch: DEBUG   : ru_initialize_common (NOOP)
+2019-04-03 18:43:32,631: umgr.0000.scheduling.0: task-manager                    : umgr.0000.scheduling.0.watch: DEBUG   : ru_initialize_child (NOOP)
+2019-04-03 18:43:32,631: umgr.0000.scheduling.0: task-manager                    : umgr.0000.scheduling.0.watch: INFO    : send alive
+2019-04-03 18:43:32,631: umgr.0000.scheduling.0: task-manager                    : umgr.0000.scheduling.0.watch: INFO    : put message: [umgr.0000.scheduling.0.watch.thread] alive
+2019-04-03 18:43:32,632: umgr.0000.scheduling.0: task-manager                    : Thread-1       : INFO    : get msg: alive
+2019-04-03 18:43:32,632: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-03 18:43:32,632: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-03 18:43:32,632: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : child thread umgr.0000.scheduling.0.watch started
+2019-04-03 18:43:32,632: umgr.0000.scheduling.0: task-manager                    : Thread-1       : INFO    : child is alive
+2019-04-03 18:43:32,632: umgr.0000.scheduling.0: task-manager                    : Thread-1       : DEBUG   : process class started child

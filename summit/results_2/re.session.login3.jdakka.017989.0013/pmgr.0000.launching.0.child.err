@@ -1,0 +1,536 @@
+2019-04-03 18:41:45,843: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-03 18:41:45,843: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    :                      pid/tid: 2823/MainThread
+2019-04-03 18:41:45,844: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYShell init <saga.utils.pty_shell.PTYShell object at 0x7fff8814cfd0>
+2019-04-03 18:41:45,844: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : PTY prompt pattern: [\$#%>\]]\s*$
+2019-04-03 18:41:45,845: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh copy  mode set to 'sftp'
+2019-04-03 18:41:45,845: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh share mode set to 'auto'
+2019-04-03 18:41:45,845: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh timeout    set to '2000.0'
+2019-04-03 18:41:45,846: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : open master pty for [sh] [localhost] jdakka: /usr/bin/env TERM=vt100  "/bin/bash"  -i'
+2019-04-03 18:41:45,846: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7fff786f5c90>
+2019-04-03 18:41:45,846: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 /bin/bash -i
+2019-04-03 18:41:45,848: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  137] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2019-04-03 18:41:45,853: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  137] [   29] (bash: ad: command not found\n)
+2019-04-03 18:41:46,854: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  137] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:46,854: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  137] [   28] ( printf 'HELLO_%d_SAGA\n' 1\n)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  137] [   40] ((snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_1_SAGA: (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  137] [    1] ($)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) ($)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_1_SAGA: (6) ($)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  137] [   16] ($HELLO_1_SAGA\n$)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($HELLO_1_SAGA)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (
+$)
+2019-04-03 18:41:47,750: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7fff786f5b10>
+2019-04-03 18:41:47,751: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 /bin/bash -i
+2019-04-03 18:41:47,752: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2019-04-03 18:41:47,758: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   29] (bash: ad: command not found\n)
+2019-04-03 18:41:48,758: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:48,759: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   28] ( printf 'HELLO_%d_SAGA\n' 1\n)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   40] ((snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_1_SAGA: (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [    1] ($)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) ($)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_1_SAGA: (6) ($)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   16] ($HELLO_1_SAGA\n$)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($HELLO_1_SAGA)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (
+$)
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : running command shell: exec /bin/sh -i
+2019-04-03 18:41:49,464: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2019-04-03 18:41:49,477: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [    1] ($)
+2019-04-03 18:41:49,477: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:49,578: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2019-04-03 18:41:49,578: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   10] (PROMPT-0->)
+2019-04-03 18:41:49,579: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got new shell prompt
+2019-04-03 18:41:49,579: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:49,679: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:49,780: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: echo "WORKDIR: $PWD"
+2019-04-03 18:41:49,787: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   21] (echo "WORKDIR: $PWD"\n)
+2019-04-03 18:41:49,787: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   27] (WORKDIR: /ccs/home/jdakka\n)
+2019-04-03 18:41:49,787: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   10] (PROMPT-0->)
+2019-04-03 18:41:49,788: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYShell del  <saga.utils.pty_shell.PTYShell object at 0x7fff8814cfd0>
+2019-04-03 18:41:49,888: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess del  <saga.utils.pty_process.PTYProcess object at 0x7fff786f5b10>
+2019-04-03 18:41:50,301: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7fff89d4a510>
+2019-04-03 18:41:50,301: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 /bin/bash -i
+2019-04-03 18:41:50,303: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2019-04-03 18:41:50,308: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   29] (bash: ad: command not found\n)
+2019-04-03 18:41:51,308: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:51,309: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   28] ( printf 'HELLO_%d_SAGA\n' 1\n)
+2019-04-03 18:41:52,098: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   40] ((snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_1_SAGA: (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [    1] ($)
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) ($)
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_1_SAGA: (6) ($)
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   16] ($HELLO_1_SAGA\n$)
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($HELLO_1_SAGA)
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (
+$)
+2019-04-03 18:41:52,099: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2019-04-03 18:41:52,114: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [    1] ($)
+2019-04-03 18:41:52,114: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:52,215: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2019-04-03 18:41:52,216: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   10] (PROMPT-0->)
+2019-04-03 18:41:52,216: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:52,317: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:52,418: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [   32] (cd / &&  test -d  '/' && cd '/'\n)
+2019-04-03 18:41:52,418: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   10] (PROMPT-0->)
+2019-04-03 18:41:52,419: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:52,520: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [  111] (mkdir -p / && cd / &&  mkdir -p '/ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/'\n)
+2019-04-03 18:41:52,527: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   10] (PROMPT-0->)
+2019-04-03 18:41:52,527: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  151] [     ] (flush pty read cache)
+2019-04-03 18:41:52,628: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  151] [  260] (cd / &&  cp  '//tmp/rp_agent_tar_dir_DtfWp/re.session.login3.jdakka.017989.0013.pmgr.0000.launching.0.child.tgz' '/ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/re.session.login3.jdakka.017989.0013.pmgr.0000.launching.0.child.tgz'\n)
+2019-04-03 18:41:52,662: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  151] [   10] (PROMPT-0->)
+2019-04-03 18:41:52,674: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7fff786c5dd0>
+2019-04-03 18:41:52,674: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 /bin/bash -i
+2019-04-03 18:41:52,676: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2019-04-03 18:41:52,682: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   29] (bash: ad: command not found\n)
+2019-04-03 18:41:53,681: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:53,681: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   28] ( printf 'HELLO_%d_SAGA\n' 1\n)
+2019-04-03 18:41:54,691: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:54,691: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   28] ( printf 'HELLO_%d_SAGA\n' 2\n)
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   40] ((snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [    2] ($$)
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) ($$)
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) ($$)
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   15] (HELLO_1_SAGA\n$)
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) (HELLO_1_SAGA)
+2019-04-03 18:41:54,755: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:41:54,756: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) (
+$)
+2019-04-03 18:41:54,756: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   16] ($HELLO_2_SAGA\n$)
+2019-04-03 18:41:54,756: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($HELLO_2_SAGA)
+2019-04-03 18:41:54,756: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:41:54,756: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (
+$)
+2019-04-03 18:41:54,756: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2019-04-03 18:41:54,768: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [    1] ($)
+2019-04-03 18:41:54,768: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:54,869: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2019-04-03 18:41:54,869: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2019-04-03 18:41:54,870: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:54,973: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7fff89d59d50>
+2019-04-03 18:41:54,973: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 /bin/bash -i
+2019-04-03 18:41:54,975: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2019-04-03 18:41:54,981: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [   29] (bash: ad: command not found\n)
+2019-04-03 18:41:55,979: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:55,979: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [   28] ( printf 'HELLO_%d_SAGA\n' 1\n)
+2019-04-03 18:41:56,989: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:56,989: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [   28] ( printf 'HELLO_%d_SAGA\n' 2\n)
+2019-04-03 18:41:57,014: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [   40] ((snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:57,014: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:57,014: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [    1] ($)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) ($)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) ($)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [   16] ($HELLO_1_SAGA\n$)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($HELLO_1_SAGA)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) (
+$)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [   16] ($HELLO_2_SAGA\n$)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($HELLO_2_SAGA)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (
+$)
+2019-04-03 18:41:57,015: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2019-04-03 18:41:57,029: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [    1] ($)
+2019-04-03 18:41:57,029: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  164] [     ] (flush pty read cache)
+2019-04-03 18:41:57,130: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2019-04-03 18:41:57,130: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [   10] (PROMPT-0->)
+2019-04-03 18:41:57,131: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  164] [     ] (flush pty read cache)
+2019-04-03 18:41:57,231: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:57,332: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   35] (mkdir -p .saga/adaptors/shell_job/\n)
+2019-04-03 18:41:57,337: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2019-04-03 18:41:57,337: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:57,438: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   45] (test -f .saga/adaptors/shell_job//wrapper.sh\n)
+2019-04-03 18:41:57,439: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   10] (PROMPT-0->)
+2019-04-03 18:41:57,439: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:57,540: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   71] (/bin/sh .saga/adaptors/shell_job//wrapper.sh .saga/adaptors/shell_job/\n)
+2019-04-03 18:41:57,549: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   11] (PID: 4811\n)
+2019-04-03 18:41:57,890: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   12] (PROMPT-0->\n)
+2019-04-03 18:41:57,890: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  164] [     ] (flush pty read cache)
+2019-04-03 18:41:57,991: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  164] [   71] (/bin/sh .saga/adaptors/shell_job//wrapper.sh .saga/adaptors/shell_job/\n)
+2019-04-03 18:41:58,000: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [   11] (PID: 4992\n)
+2019-04-03 18:41:58,321: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  164] [   12] (PROMPT-0->\n)
+2019-04-03 18:41:58,321: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : flush: [  164] [     ] (flush pty read cache)
+2019-04-03 18:41:58,322: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : WARNING : flush: [  164] [    1] (discard data: '
+')
+2019-04-03 18:41:58,329: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:58,329: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  163] [    1] (discard data: '
+')
+2019-04-03 18:41:58,422: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : write: [  164] [    8] (MONITOR\n)
+2019-04-03 18:41:58,429: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : read : [  164] [ 1388] (40355.0:RUNNING: \n40355.0:DON ... 0:RUNNING: \n956.0:DONE:0   \n)
+2019-04-03 18:41:58,430: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [  263] (RUN true && ( /bin/sh -c 'tar zmxvf /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/re.session.login3.jdakka.017989.0013.pmgr.0000.launching.0.child.tgz -C /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013' )\n)
+2019-04-03 18:41:58,433: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : read : [  164] [ 4095] (1380.0:RUNNING: \n1380.0:DONE: ... 89.0:RUNNING: \n63089.0:DONE:0)
+2019-04-03 18:41:58,442: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : read : [  164] [ 3777] (   \n63144.0:RUNNING: \n63144. ... UNNING: \n130132.0:DONE:0   \n)
+2019-04-03 18:41:58,465: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   10] (RUNNING \n)
+2019-04-03 18:41:58,465: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   12] (OK\n5148.0\n)
+2019-04-03 18:41:58,467: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   12] (PROMPT-0->\n)
+2019-04-03 18:41:58,467: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:58,467: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  163] [    1] (discard data: '
+')
+2019-04-03 18:41:58,568: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   13] (STATS 5148.0\n)
+2019-04-03 18:41:58,581: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   41] (OK\nSTATE : DONE\n\nSTART  : 1554331318\n)
+2019-04-03 18:41:58,581: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   83] (STOP   : 1554331318\n\nSTART_STDERR\n\nEND_STDERR\n\nSTART_STDOUT\n\nEND_STDOUT\n\n)
+2019-04-03 18:41:58,582: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   12] (PROMPT-0->\n)
+2019-04-03 18:41:58,583: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:58,583: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  163] [    1] (discard data: '
+')
+2019-04-03 18:41:58,684: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   14] (STDOUT 5148.0\n)
+2019-04-03 18:41:58,691: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [    4] (OK\n)
+2019-04-03 18:41:58,691: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [  562] (626f6f7473747261705f302e73680a6361636572742e70656d2e677a0a70696c6f742e303030302f0a70696c6f742e303030302f70696c6f742e303030302e70726f662e74677a0a70696c6f742e303030302f70696c6f742e303030302e6c6f672e74677a0a70696c6f742e303030302f6167656e745f302e6366670a7261646963616c2e70696c6f742d302e35302e32322d76302e35302e32322d3138392d67336163366131392d6669782d69737375652d313833302e7461722e677a0a7261646963616c2e7574696c732d302e35302e332e7461722e677a0a736167612d707974686f6e2d302e35302e302d76302e35302e302d32322d67386332363066382d666561747572652d73756d6d69742e7461722e677a0a\n)
+2019-04-03 18:41:58,693: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   12] (PROMPT-0->\n)
+2019-04-03 18:41:58,694: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  163] [     ] (flush pty read cache)
+2019-04-03 18:41:58,694: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : WARNING : flush: [  163] [    1] (discard data: '
+')
+2019-04-03 18:41:58,795: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  163] [   14] (STDERR 5148.0\n)
+2019-04-03 18:41:58,801: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [    6] (OK\n\n)
+2019-04-03 18:41:58,802: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  163] [   12] (PROMPT-0->\n)
+2019-04-03 18:41:58,813: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYShell init <saga.utils.pty_shell.PTYShell object at 0x7fff78610650>
+2019-04-03 18:41:58,813: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : PTY prompt pattern: [\$#%>\]]\s*$
+2019-04-03 18:41:58,814: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh copy  mode set to 'sftp'
+2019-04-03 18:41:58,814: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh share mode set to 'auto'
+2019-04-03 18:41:58,814: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : ssh timeout    set to '2000.0'
+2019-04-03 18:41:58,814: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : PTYProcess init <saga.utils.pty_process.PTYProcess object at 0x7fff89d1acd0>
+2019-04-03 18:41:58,814: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : INFO    : running: /usr/bin/env TERM=vt100 /bin/bash -i
+2019-04-03 18:41:58,816: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   51] ( export PROMPT_COMMAND='' PS1='$' ; set prompt='$'\n)
+2019-04-03 18:41:58,822: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   29] (bash: ad: command not found\n)
+2019-04-03 18:41:59,430: radical.saga.pty    : pmgr.0000.launching.0           : Thread-1       : DEBUG   : read : [  164] [   36] (5148.0:RUNNING: \n5148.0:DONE:0   \n)
+2019-04-03 18:41:59,821: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:41:59,822: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   28] ( printf 'HELLO_%d_SAGA\n' 1\n)
+2019-04-03 18:42:00,832: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   69] ( export PROMPT_COMMAND='' PS1='$' > /dev/null 2>&1 || set prompt='$'\n)
+2019-04-03 18:42:00,832: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   28] ( printf 'HELLO_%d_SAGA\n' 2\n)
+2019-04-03 18:42:00,955: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   40] ((snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:42:00,955: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:42:00,955: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) (bash: ad: command not found
+(snakes) [jdakka@login3.summit bip178]$ )
+2019-04-03 18:42:00,955: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   17] ($$HELLO_1_SAGA\n$)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($$HELLO_1_SAGA)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : waiting for prompt trigger HELLO_2_SAGA: (6) (
+$)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   16] ($HELLO_2_SAGA\n$)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got shell prompt trigger (5) ($HELLO_2_SAGA)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got initial shell prompt (6) (
+$)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : Got initial shell prompt (6) (
+$)
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : running command shell: exec /bin/sh -i
+2019-04-03 18:42:00,956: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   30] ( stty -echo ; exec /bin/sh -i\n)
+2019-04-03 18:42:00,970: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [    1] ($)
+2019-04-03 18:42:00,970: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,071: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [  152] (set HISTFILE=$HOME/.saga_history; PS1='PROMPT-$?->'; PS2=''; PROMPT_COMMAND=''; export PS1 PS2 PROMPT_COMMAND 2>&1 >/dev/null; cd $HOME 2>&1 >/dev/null\n)
+2019-04-03 18:42:01,072: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,072: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : got new shell prompt
+2019-04-03 18:42:01,072: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,173: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,274: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: which bsub
+2019-04-03 18:42:01,274: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   11] (which bsub\n)
+2019-04-03 18:42:01,277: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   43] (/sw/sources/lsf-tools/2.0/summit/bin/bsub\n)
+2019-04-03 18:42:01,277: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,278: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,378: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: bsub -V
+2019-04-03 18:42:01,378: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [    8] (bsub -V\n)
+2019-04-03 18:42:01,401: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [  291] (IBM Spectrum LSF 10.1.0.0 build 511064, Jan 30 2019\nCopyright International Business Machines Corp. 1992, 2016.\nUS Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n  binary type: linux3.10-glibc2.17-ppc64le-csm\n)
+2019-04-03 18:42:01,401: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,401: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,502: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: which bkill
+2019-04-03 18:42:01,502: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   12] (which bkill\n)
+2019-04-03 18:42:01,504: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   79] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bkill\n)
+2019-04-03 18:42:01,504: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,504: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,605: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: bkill -V
+2019-04-03 18:42:01,605: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [    9] (bkill -V\n)
+2019-04-03 18:42:01,609: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [  291] (IBM Spectrum LSF 10.1.0.0 build 511064, Jan 30 2019\nCopyright International Business Machines Corp. 1992, 2016.\nUS Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n  binary type: linux3.10-glibc2.17-ppc64le-csm\n)
+2019-04-03 18:42:01,609: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,609: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,710: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: which bqueues
+2019-04-03 18:42:01,710: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   14] (which bqueues\n)
+2019-04-03 18:42:01,712: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   81] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bqueues\n)
+2019-04-03 18:42:01,712: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,712: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,813: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: bqueues -V
+2019-04-03 18:42:01,813: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   11] (bqueues -V\n)
+2019-04-03 18:42:01,816: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [  291] (IBM Spectrum LSF 10.1.0.0 build 511064, Jan 30 2019\nCopyright International Business Machines Corp. 1992, 2016.\nUS Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n  binary type: linux3.10-glibc2.17-ppc64le-csm\n)
+2019-04-03 18:42:01,816: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,817: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:01,917: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: which bjobs
+2019-04-03 18:42:01,917: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [   12] (which bjobs\n)
+2019-04-03 18:42:01,919: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   79] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs\n)
+2019-04-03 18:42:01,919: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:01,919: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:02,020: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : run_sync: bjobs -V
+2019-04-03 18:42:02,020: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : write: [  165] [    9] (bjobs -V\n)
+2019-04-03 18:42:02,023: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [  291] (IBM Spectrum LSF 10.1.0.0 build 511064, Jan 30 2019\nCopyright International Business Machines Corp. 1992, 2016.\nUS Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n  binary type: linux3.10-glibc2.17-ppc64le-csm\n)
+2019-04-03 18:42:02,023: radical.saga.pty    : pmgr.0000.launching.0           : MainThread     : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:02,041: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:02,142: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : run_sync: mkdir -p /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/pilot.0000
+2019-04-03 18:42:02,142: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : write: [  165] [   96] (mkdir -p /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/pilot.0000\n)
+2019-04-03 18:42:02,146: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:02,147: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:02,247: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : run_sync: SCRIPTFILE=`mktemp -t SAGA-Python-LSFJobScript.XXXXXX` && echo "
+#!/bin/bash 
+#BSUB -J pilot.0000 
+#BSUB -cwd /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/pilot.0000 
+#BSUB -o /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/pilot.0000/bootstrap_0.out 
+#BSUB -e /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/pilot.0000/bootstrap_0.err 
+#BSUB -W 2:0 
+#BSUB -q batch 
+#BSUB -P BIP178 
+#BSUB -nnodes 1 
+#BSUB -alloc_flags 'gpumps smt1' 
+
+export  RADICAL_PILOT_PROFILE=TRUE 
+/bin/bash -l /ccs/home/jdakka/radical.pilot.sandbox/re.session.login3.jdakka.017989.0013/bootstrap_0.sh  -d 'radical.utils-0.50.3.tar.gz:saga-python-0.50.0-v0.50.0-22-g8c260f8-feature-summit.tar.gz:radical.pilot-0.50.22-v0.50.22-189-g3ac6a19-fix-issue-1830.tar.gz' -p 'pilot.0000' -s 're.session.login3.jdakka.017989.0013' -m 'create' -r 'local' -b 'default' -g 'default' -v '/ccs/home/jdakka/radical.pilot.sandbox/ve.ornl.summit.0.50.22' -y '120' " > $SCRIPTFILE && /sw/sources/lsf-tools/2.0/summit/bin/bsub $SCRIPTFILE && rm -f $SCRIPTFILE
+2019-04-03 18:42:02,247: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : write: [  165] [ 1101] (SCRIPTFILE=`mktemp -t SAGA-Pyt ... IPTFILE && rm -f $SCRIPTFILE\n)
+2019-04-03 18:42:02,422: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : read : [  165] [   45] (Job <321442> is submitted to queue <batch>.\n)
+2019-04-03 18:42:02,424: radical.saga.pty    : pmgr.0000.launching.0           : Thread-3       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:04,819: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:04,919: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:04,919: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:04,927: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:04,927: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:07,931: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:08,032: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:08,032: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:08,041: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:08,041: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:11,045: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:11,145: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:11,146: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:11,153: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:11,153: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:14,156: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:14,257: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:14,257: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:14,264: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:14,264: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:17,268: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:17,368: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:17,368: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:17,376: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:17,377: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:20,380: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:20,481: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:20,481: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:20,487: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:20,488: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:23,491: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:23,592: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:23,592: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:23,599: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:23,599: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:26,603: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:26,704: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:26,704: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:26,711: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:26,711: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:29,714: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:29,815: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:29,815: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:29,822: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:29,822: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:32,826: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:32,926: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:32,927: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:32,936: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:32,936: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:35,940: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:36,040: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:36,041: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:36,049: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:36,049: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:39,053: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:39,154: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:39,154: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:39,161: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:39,161: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:42,164: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:42,265: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:42,265: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:42,272: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:42,272: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:45,275: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:45,376: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:45,376: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:45,383: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:45,383: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:48,387: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:48,487: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:48,488: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:48,495: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:48,495: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:51,499: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:51,599: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:51,600: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:51,606: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     PEND      -     batch             -             -       pilot.0000                    \n)
+2019-04-03 18:42:51,607: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:54,607: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:54,708: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:54,708: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:54,715: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:42:54,715: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:42:57,719: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:42:57,820: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:42:57,820: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:42:57,827: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:42:57,827: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:00,831: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:00,932: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:00,932: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:00,938: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:00,939: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:03,942: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:04,043: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:04,043: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:04,052: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:04,053: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:07,056: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:07,157: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:07,157: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:07,164: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:07,164: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:10,167: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:10,268: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:10,268: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:10,275: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:10,275: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:13,277: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:13,378: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:13,378: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:13,386: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:13,387: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:16,390: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:16,491: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:16,491: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:16,498: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:16,498: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:19,501: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:19,602: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:19,602: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:19,609: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:19,609: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:22,613: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:22,713: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:22,713: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:22,723: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:22,723: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:25,726: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:25,827: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:25,827: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:25,834: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:25,834: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:28,838: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:28,938: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:28,939: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:28,947: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:28,948: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:31,951: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:32,052: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:32,052: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:32,060: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:32,060: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:35,064: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:35,165: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:35,165: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:35,173: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:35,173: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:38,177: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:38,278: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:38,278: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:38,286: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:38,287: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:41,287: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:41,388: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:41,388: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:41,396: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:41,396: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:44,400: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:44,501: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:44,501: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:44,508: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:44,508: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:47,511: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:47,612: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:47,612: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:47,625: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:47,625: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:50,628: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:50,729: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:50,729: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:50,736: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:50,737: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:53,740: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:53,841: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:53,841: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:53,847: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:53,848: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:43:56,851: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:43:56,952: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:43:56,952: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:43:57,027: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:43:57,028: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:44:00,031: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:00,132: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:44:00,132: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:44:00,146: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  117] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \nPROMPT-0->)
+2019-04-03 18:44:03,147: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:03,248: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:44:03,248: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:44:03,278: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:44:03,278: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:44:06,281: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:06,382: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:44:06,382: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:44:06,390: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:44:06,390: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:44:09,394: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:09,494: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:44:09,494: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:44:09,502: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:44:09,502: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:44:12,505: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:12,610: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:44:12,610: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:44:12,619: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:44:12,619: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:44:15,622: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:15,723: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:44:15,723: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:44:15,732: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:44:15,732: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:44:18,735: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:18,836: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442
+2019-04-03 18:44:18,836: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : write: [  165] [   95] (/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442\n)
+2019-04-03 18:44:18,844: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [  107] (321442  jdakka     RUN    43       batch       Apr  3 18:42  Apr  3 20:42  pilot.0000                    \n)
+2019-04-03 18:44:18,844: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : read : [  165] [   10] (PROMPT-0->)
+2019-04-03 18:44:21,848: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : flush: [  165] [     ] (flush pty read cache)
+2019-04-03 18:44:21,948: radical.saga.pty    : pmgr.0000.launching.0           : Thread-2       : DEBUG   : run_sync: /opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin/bjobs -noheader 321442

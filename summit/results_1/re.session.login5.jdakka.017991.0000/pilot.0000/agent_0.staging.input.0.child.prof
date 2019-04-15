@@ -1,0 +1,12 @@
+#time,event,comp,thread,uid,state,msg
+1554434878.5831,sync_abs,agent_0.staging.input.0.child,MainThread,,,batch2.summit.olcf.ornl.gov:127.0.0.1:1554434878.56:1554434878.57:ntp
+1554434878.6207,component_init,agent_0.staging.input.0.child,MainThread,,,
+1554434896.6416,get,agent_0.staging.input.0.child,MainThread,unit.000000,AGENT_STAGING_INPUT_PENDING,
+1554434896.6424,advance,agent_0.staging.input.0.child,MainThread,unit.000000,AGENT_STAGING_INPUT,
+1554434896.6426,publish,agent_0.staging.input.0.child,MainThread,unit.000000,AGENT_STAGING_INPUT,
+1554434896.6426,advance,agent_0.staging.input.0.child,MainThread,unit.000000,AGENT_SCHEDULING_PENDING,
+1554434896.6427,publish,agent_0.staging.input.0.child,MainThread,unit.000000,AGENT_SCHEDULING_PENDING,
+1554434896.6429,put,agent_0.staging.input.0.child,MainThread,unit.000000,AGENT_SCHEDULING_PENDING,agent.scheduling.queue.input.0000
+1554440742.0086,flush,agent_0.staging.input.0.child,agent_0.staging.input.0.child.subscriber._cancel_monitor_cb,,,
+1554440742.0124,component_final,agent_0.staging.input.0.child,agent_0.staging.input.0.child.subscriber._cancel_monitor_cb,,,
+1554440742.0124,END,agent_0.staging.input.0.child,agent_0.staging.input.0.child.subscriber._cancel_monitor_cb,,,

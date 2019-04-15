@@ -1,0 +1,10 @@
+re.session.login3.jdakka.017990.0001-tmgr-to-sync
+re.session.login3.jdakka.017990.0001-cb-to-sync
+re.session.login3.jdakka.017990.0001-enq-to-sync
+re.session.login3.jdakka.017990.0001-deq-to-sync
+re.session.login3.jdakka.017990.0001-sync-to-tmgr
+re.session.login3.jdakka.017990.0001-sync-to-cb
+re.session.login3.jdakka.017990.0001-sync-to-enq
+re.session.login3.jdakka.017990.0001-sync-to-deq
+re.session.login3.jdakka.017990.0001-pendingq-1
+re.session.login3.jdakka.017990.0001-completedq-1

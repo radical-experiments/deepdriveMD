@@ -1,0 +1,18 @@
+2019-04-04 18:57:59,612: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 18:57:59,613: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    :                      pid/tid: 128133/MainThread
+2019-04-04 18:57:59,613: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    : create state_pubsub - sub - tcp://128.219.134.75:34307
+2019-04-04 18:57:59,613: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : start process
+2019-04-04 18:57:59,613: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 18:57:59,613: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 18:57:59,613: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : process class started (no child)
+2019-04-04 18:57:59,968: state.pubsub.sub.0000: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 18:57:59,969: state.pubsub.sub.0000: MainProcess                     : MainThread     : INFO    :                      pid/tid: 128052/MainThread
+2019-04-04 18:57:59,969: state.pubsub.sub.0000: MainProcess                     : MainThread     : INFO    : create state_pubsub - sub - tcp://128.219.134.75:34307
+2019-04-04 18:57:59,969: state.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : start process
+2019-04-04 18:57:59,969: state.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 18:57:59,969: state.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 18:57:59,969: state.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2019-04-04 20:38:36,643: state.pubsub.sub.0000: MainProcess                     : MainThread     : INFO    : parent stops child  128052 -> None [state.pubsub.sub.0000]
+2019-04-04 20:38:36,643: state.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-04 20:38:36,857: state.pubsub.sub.0000: update.0                        : MainThread     : INFO    : parent stops child  128133 -> None [state.pubsub.sub.0000]
+2019-04-04 20:38:36,857: state.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

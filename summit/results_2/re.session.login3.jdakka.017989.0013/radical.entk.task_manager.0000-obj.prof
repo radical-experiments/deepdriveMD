@@ -1,0 +1,12 @@
+#time,event,comp,thread,uid,state,msg
+1554331411.4673,sync_abs,radical.entk.task_manager.0000-obj,MainThread,,,login3.summit.olcf.ornl.gov:127.0.0.1:1554331411.42:1554331411.43:ntp
+1554331411.4803,tmgr obj created,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1554331411.4805,creating tmgr process,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1554331411.4809,starting tmgr process,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1554331411.4837,creating heartbeat thread,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1554331411.4838,starting heartbeat thread,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1554331411.4840,heartbeat thread started,radical.entk.task_manager.0000-obj,heartbeat,task_manager.0000,,
+1554331448.9729,tmgr process terminated,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1554331471.5568,terminating heartbeat thread,radical.entk.task_manager.0000-obj,heartbeat,task_manager.0000,,
+1554331471.5574,heartbeat thread terminated,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1554331471.5575,END,radical.entk.task_manager.0000-obj,MainThread,,,

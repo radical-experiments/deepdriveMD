@@ -1,0 +1,35 @@
+2019-04-03 18:43:31,379: radical.entk.task_manager.0000: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-03 18:43:31,380: radical.entk.task_manager.0000: MainProcess                     : MainThread     : INFO    :                      pid/tid: 2674/MainThread
+2019-04-03 18:43:31,479: radical.entk.task_manager.0000: MainProcess                     : MainThread     : INFO    : Created task manager object: task_manager.0000
+2019-04-03 18:43:31,480: radical.entk.task_manager.0000: MainProcess                     : MainThread     : INFO    : Starting task manager process
+2019-04-03 18:43:31,482: radical.entk.task_manager.0000: MainProcess                     : MainThread     : INFO    : Starting heartbeat thread
+2019-04-03 18:43:31,547: radical.entk.task_manager.0000: MainProcess                     : heartbeat      : INFO    : Sent heartbeat request
+2019-04-03 18:43:31,572: radical.entk.task_manager.0000: task-manager                    : MainThread     : INFO    : Task Manager process started
+2019-04-03 18:43:31,582: radical.entk.task_manager.0000: task-manager                    : MainThread     : INFO    : Received heartbeat request
+2019-04-03 18:43:31,582: radical.entk.task_manager.0000: task-manager                    : MainThread     : INFO    : Sent heartbeat response
+2019-04-03 18:43:32,848: radical.entk.task_manager.0000: task-manager                    : Thread-1       : DEBUG   : Attempting to sync task.0000 with state SUBMITTING with AppManager
+2019-04-03 18:43:32,852: radical.entk.task_manager.0000: task-manager                    : Thread-1       : DEBUG   : task.0000 with state SUBMITTING synced with AppManager
+2019-04-03 18:43:32,852: radical.entk.task_manager.0000: task-manager                    : Thread-1       : INFO    : Transition of task.0000 to new state SUBMITTING successful
+2019-04-03 18:43:32,883: radical.entk.task_manager.0000: task-manager                    : umgr.0000.subscriber._state_sub_cb: DEBUG   : Unit unit.000000 in state UMGR_SCHEDULING_PENDING
+2019-04-03 18:43:32,884: radical.entk.task_manager.0000: task-manager                    : umgr.0000.subscriber._state_sub_cb: DEBUG   : Unit unit.000000 in state UMGR_SCHEDULING
+2019-04-03 18:43:32,885: radical.entk.task_manager.0000: task-manager                    : umgr.0000.subscriber._state_sub_cb: DEBUG   : Unit unit.000000 in state UMGR_STAGING_INPUT_PENDING
+2019-04-03 18:43:32,886: radical.entk.task_manager.0000: task-manager                    : umgr.0000.subscriber._state_sub_cb: DEBUG   : Unit unit.000000 in state UMGR_STAGING_INPUT
+2019-04-03 18:43:32,887: radical.entk.task_manager.0000: task-manager                    : umgr.0000.subscriber._state_sub_cb: DEBUG   : Unit unit.000000 in state AGENT_STAGING_INPUT_PENDING
+2019-04-03 18:43:32,948: radical.entk.task_manager.0000: task-manager                    : Thread-1       : DEBUG   : Attempting to sync task.0000 with state SUBMITTED with AppManager
+2019-04-03 18:43:32,951: radical.entk.task_manager.0000: task-manager                    : Thread-1       : DEBUG   : task.0000 with state SUBMITTED synced with AppManager
+2019-04-03 18:43:32,952: radical.entk.task_manager.0000: task-manager                    : Thread-1       : INFO    : Transition of task.0000 to new state SUBMITTED successful
+2019-04-03 18:43:35,850: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Unit unit.000000 in state AGENT_STAGING_INPUT
+2019-04-03 18:43:36,874: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Unit unit.000000 in state AGENT_SCHEDULING_PENDING
+2019-04-03 18:43:36,874: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Unit unit.000000 in state AGENT_SCHEDULING
+2019-04-03 18:43:36,875: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Unit unit.000000 in state AGENT_EXECUTING_PENDING
+2019-04-03 18:43:36,884: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Unit unit.000000 in state AGENT_EXECUTING
+2019-04-03 18:43:43,026: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Unit unit.000000 in state AGENT_STAGING_OUTPUT_PENDING
+2019-04-03 18:43:44,051: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Unit unit.000000 in state FAILED
+2019-04-03 18:43:44,059: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : Attempting to sync task.0000 with state EXECUTED with AppManager
+2019-04-03 18:43:44,064: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: DEBUG   : task.0000 with state EXECUTED synced with AppManager
+2019-04-03 18:43:44,065: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: INFO    : Transition of task.0000 to new state EXECUTED successful
+2019-04-03 18:43:44,065: radical.entk.task_manager.0000: task-manager                    : umgr.0000.idler._state_pull_cb: INFO    : Pushed task task.0000 with state EXECUTED to completed queue re.session.login3.jdakka.017989.0013-completedq-1
+2019-04-03 18:44:01,549: radical.entk.task_manager.0000: MainProcess                     : heartbeat      : INFO    : Received heartbeat response
+2019-04-03 18:44:01,550: radical.entk.task_manager.0000: MainProcess                     : heartbeat      : INFO    : Sent heartbeat request
+2019-04-03 18:44:08,972: radical.entk.task_manager.0000: MainProcess                     : MainThread     : INFO    : Task manager process closed
+2019-04-03 18:44:31,556: radical.entk.task_manager.0000: MainProcess                     : MainThread     : INFO    : Hearbeat thread terminated

@@ -1,0 +1,14 @@
+2019-04-03 18:43:26,970: radical.util.threads: agent_0.executing.0             : MainThread     : INFO    : python.interpreter   version: 2.7.5 (default, May 31 2018, 09:45:54) [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : MainThread     : INFO    :                      pid/tid: 35089/MainThread
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : MainThread     : DEBUG   : parent name: Watcher
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : MainThread     : DEBUG   : start thread
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : Watcher        : DEBUG   : child name: Watcher.thread
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : Watcher        : INFO    : child (me) initializing
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : Watcher        : DEBUG   : ru_initialize_common (NOOP)
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : Watcher        : DEBUG   : ru_initialize_child (NOOP)
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : Watcher        : INFO    : send alive
+2019-04-03 18:43:26,972: radical.util.threads: agent_0.executing.0             : Watcher        : INFO    : put message: [Watcher.thread] alive
+2019-04-03 18:43:26,973: radical.util.threads: agent_0.executing.0             : MainThread     : INFO    : get msg: alive
+2019-04-03 18:43:26,974: radical.util.threads: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-03 18:43:26,974: radical.util.threads: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-03 18:43:26,974: radical.util.threads: agent_0.executing.0             : MainThread     : DEBUG   : child thread Watcher started

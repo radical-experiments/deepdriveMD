@@ -1,0 +1,18 @@
+2019-04-04 23:26:46,936: control.pubsub.pub.0000: update.0                        : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:26:46,937: control.pubsub.pub.0000: update.0                        : MainThread     : INFO    :                      pid/tid: 1138/MainThread
+2019-04-04 23:26:46,937: control.pubsub.pub.0000: update.0                        : MainThread     : INFO    : create control_pubsub - pub - tcp://128.219.134.75:42817
+2019-04-04 23:26:46,987: control.pubsub.pub.0000: update.0                        : MainThread     : DEBUG   : start process
+2019-04-04 23:26:46,987: control.pubsub.pub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:26:46,987: control.pubsub.pub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:26:46,987: control.pubsub.pub.0000: update.0                        : MainThread     : DEBUG   : process class started (no child)
+2019-04-04 23:26:47,188: control.pubsub.pub.0000: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:26:47,188: control.pubsub.pub.0000: MainProcess                     : MainThread     : INFO    :                      pid/tid: 917/MainThread
+2019-04-04 23:26:47,188: control.pubsub.pub.0000: MainProcess                     : MainThread     : INFO    : create control_pubsub - pub - tcp://128.219.134.75:42817
+2019-04-04 23:26:47,189: control.pubsub.pub.0000: MainProcess                     : MainThread     : DEBUG   : start process
+2019-04-04 23:26:47,189: control.pubsub.pub.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:26:47,189: control.pubsub.pub.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:26:47,189: control.pubsub.pub.0000: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2019-04-05 01:05:55,358: control.pubsub.pub.0000: MainProcess                     : MainThread     : INFO    : parent stops child  917 -> None [control.pubsub.pub.0000]
+2019-04-05 01:05:55,358: control.pubsub.pub.0000: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 01:05:55,643: control.pubsub.pub.0000: update.0                        : MainThread     : INFO    : parent stops child  1138 -> None [control.pubsub.pub.0000]
+2019-04-05 01:05:55,643: control.pubsub.pub.0000: update.0                        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

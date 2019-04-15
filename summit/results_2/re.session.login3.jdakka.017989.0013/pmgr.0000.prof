@@ -1,0 +1,17 @@
+#time,event,comp,thread,uid,state,msg
+1554331298.6925,sync_abs,pmgr.0000,MainThread,,,login3.summit.olcf.ornl.gov:127.0.0.1:1554331298.69:1554331298.69:sys
+1554331300.8810,component_init,pmgr.0000,MainThread,,,
+1554331300.9322,setup_done,pmgr.0000,MainThread,pmgr.0000,,
+1554331305.8180,advance,pmgr.0000,MainThread,pilot.0000,NEW,
+1554331305.8405,advance,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1554331305.8408,publish,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1554331305.8410,put,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,pmgr.launching.queue.input.0000
+1554331305.8424,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_LAUNCHING,
+1554331322.4281,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_ACTIVE_PENDING,
+1554331411.3081,advance,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1554331411.3083,publish,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1554331481.5736,advance,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,CANCELED,
+1554331481.5739,publish,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,CANCELED,
+1554331481.6905,flush,pmgr.0000,MainThread,,,
+1554331484.0359,component_final,pmgr.0000,MainThread,,,
+1554331484.0359,END,pmgr.0000,MainThread,,,

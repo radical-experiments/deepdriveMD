@@ -1,0 +1,59 @@
+2019-04-03 18:41:32,973: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-03 18:41:32,974: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    :                      pid/tid: 2674/MainThread
+2019-04-03 18:41:33,087: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Application Manager initialized
+2019-04-03 18:41:33,465: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Workflow assigned to Application Manager
+2019-04-03 18:41:33,465: radical.entk.appmanager.0000: MainProcess                     : MainThread     : DEBUG   : Setting up mq connection and channel
+2019-04-03 18:41:33,487: radical.entk.appmanager.0000: MainProcess                     : MainThread     : DEBUG   : Connection and channel setup successful
+2019-04-03 18:41:33,488: radical.entk.appmanager.0000: MainProcess                     : MainThread     : DEBUG   : Setting up all exchanges and queues
+2019-04-03 18:41:33,512: radical.entk.appmanager.0000: MainProcess                     : MainThread     : DEBUG   : All exchanges and queues are setup
+2019-04-03 18:41:33,578: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Starting resource request submission
+2019-04-03 18:43:31,371: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Starting synchronizer thread
+2019-04-03 18:43:31,371: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Starting WFProcessor process from AppManager
+2019-04-03 18:43:31,371: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : synchronizer thread started
+2019-04-03 18:43:31,471: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received pipeline.0000 with state SCHEDULING for sync
+2019-04-03 18:43:31,471: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received pipeline.0000 with state SCHEDULING
+2019-04-03 18:43:31,472: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Found pipeline pipeline.0000, state SCHEDULING, completed False
+2019-04-03 18:43:31,478: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received stage.0000 with state SCHEDULING for sync
+2019-04-03 18:43:31,478: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received stage.0000 with state SCHEDULING
+2019-04-03 18:43:31,478: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Found parent pipeline: pipeline.0000
+2019-04-03 18:43:31,479: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found stage stage.0000
+2019-04-03 18:43:31,480: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Starting task manager process from AppManager
+2019-04-03 18:43:31,485: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state SCHEDULING for sync
+2019-04-03 18:43:31,485: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state SCHEDULING
+2019-04-03 18:43:31,486: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state SCHEDULING
+2019-04-03 18:43:31,546: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state SCHEDULED for sync
+2019-04-03 18:43:31,546: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state SCHEDULED
+2019-04-03 18:43:31,554: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state SCHEDULED
+2019-04-03 18:43:31,561: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received stage.0000 with state SCHEDULED for sync
+2019-04-03 18:43:31,561: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received stage.0000 with state SCHEDULED
+2019-04-03 18:43:31,561: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Found parent pipeline: pipeline.0000
+2019-04-03 18:43:31,562: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found stage stage.0000
+2019-04-03 18:43:32,850: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state SUBMITTING for sync
+2019-04-03 18:43:32,851: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state SUBMITTING
+2019-04-03 18:43:32,851: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state SUBMITTING
+2019-04-03 18:43:32,950: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state SUBMITTED for sync
+2019-04-03 18:43:32,950: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state SUBMITTED
+2019-04-03 18:43:32,950: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state SUBMITTED
+2019-04-03 18:43:44,062: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state EXECUTED for sync
+2019-04-03 18:43:44,063: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state EXECUTED
+2019-04-03 18:43:44,063: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state EXECUTED
+2019-04-03 18:43:44,070: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state DEQUEUEING for sync
+2019-04-03 18:43:44,070: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state DEQUEUEING
+2019-04-03 18:43:44,071: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state DEQUEUEING
+2019-04-03 18:43:44,076: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state DEQUEUED for sync
+2019-04-03 18:43:44,076: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state DEQUEUED
+2019-04-03 18:43:44,076: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state DEQUEUED
+2019-04-03 18:43:44,079: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received task.0000 with state FAILED for sync
+2019-04-03 18:43:44,079: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received task.0000 with state FAILED
+2019-04-03 18:43:44,079: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found task task.0000 with state FAILED
+2019-04-03 18:43:44,083: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received stage.0000 with state DONE for sync
+2019-04-03 18:43:44,084: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received stage.0000 with state DONE
+2019-04-03 18:43:44,084: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Found parent pipeline: pipeline.0000
+2019-04-03 18:43:44,084: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : Found stage stage.0000
+2019-04-03 18:43:44,087: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: DEBUG   : received pipeline.0000 with state DONE for sync
+2019-04-03 18:43:44,087: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Received pipeline.0000 with state DONE
+2019-04-03 18:43:44,088: radical.entk.appmanager.0000: MainProcess                     : synchronizer-thread: INFO    : Found pipeline pipeline.0000, state DONE, completed False
+2019-04-03 18:43:44,088: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Terminating WFprocessor
+2019-04-03 18:43:44,099: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Terminating synchronizer thread
+2019-04-03 18:43:44,143: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Synchronizer thread terminated
+2019-04-03 18:43:44,143: radical.entk.appmanager.0000: MainProcess                     : MainThread     : INFO    : Terminating task manager process

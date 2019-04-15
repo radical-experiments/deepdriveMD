@@ -1,0 +1,16 @@
+2019-04-04 23:28:12,122: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:28:12,122: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    :                      pid/tid: 6470/Thread-1
+2019-04-04 23:28:12,122: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    : create state_pubsub - pub - tcp://128.219.134.75:35793
+2019-04-04 23:28:12,197: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : start process
+2019-04-04 23:28:12,197: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:28:12,197: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:28:12,197: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : process class started (no child)
+2019-04-04 23:28:12,222: state.pubsub.pub.0003: task-manager                    : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:28:12,222: state.pubsub.pub.0003: task-manager                    : Thread-1       : INFO    :                      pid/tid: 6435/Thread-1
+2019-04-04 23:28:12,222: state.pubsub.pub.0003: task-manager                    : Thread-1       : INFO    : create state_pubsub - pub - tcp://128.219.134.75:35793
+2019-04-04 23:28:12,307: state.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : start process
+2019-04-04 23:28:12,307: state.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:28:12,307: state.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:28:12,307: state.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : process class started (no child)
+2019-04-05 01:05:32,009: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    : parent stops child  6470 -> None [state.pubsub.pub.0003]
+2019-04-05 01:05:32,009: state.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_finalize_parent (NOOP)

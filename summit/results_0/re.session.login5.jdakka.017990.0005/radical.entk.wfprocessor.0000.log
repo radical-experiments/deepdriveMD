@@ -1,0 +1,49 @@
+2019-04-04 18:57:58,082: radical.entk.wfprocessor.0000: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 18:57:58,084: radical.entk.wfprocessor.0000: MainProcess                     : MainThread     : INFO    :                      pid/tid: 128052/MainThread
+2019-04-04 18:57:58,127: radical.entk.wfprocessor.0000: MainProcess                     : MainThread     : INFO    : Created WFProcessor object: wfprocessor.0000
+2019-04-04 18:59:20,343: radical.entk.wfprocessor.0000: MainProcess                     : MainThread     : INFO    : Starting WFprocessor process
+2019-04-04 18:59:20,392: radical.entk.wfprocessor.0000: wfprocessor                     : MainThread     : INFO    : WFprocessor started
+2019-04-04 18:59:20,392: radical.entk.wfprocessor.0000: wfprocessor                     : MainThread     : INFO    : Starting dequeue-thread
+2019-04-04 18:59:20,392: radical.entk.wfprocessor.0000: wfprocessor                     : MainThread     : INFO    : Starting enqueue-thread
+2019-04-04 18:59:20,392: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Dequeue thread started
+2019-04-04 18:59:20,393: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : INFO    : enqueue-thread started
+2019-04-04 18:59:20,401: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : Attempting to sync pipeline.0000 with state SCHEDULING with AppManager
+2019-04-04 18:59:20,405: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : pipeline.0000 with state SCHEDULING synced with AppManager
+2019-04-04 18:59:20,405: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : INFO    : Transition of pipeline.0000 to new state SCHEDULING successful
+2019-04-04 18:59:20,405: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : Attempting to sync stage.0000 with state SCHEDULING with AppManager
+2019-04-04 18:59:20,410: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : stage.0000 with state SCHEDULING synced with AppManager
+2019-04-04 18:59:20,410: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : INFO    : Transition of stage.0000 to new state SCHEDULING successful
+2019-04-04 18:59:20,410: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : Attempting to sync task.0000 with state SCHEDULING with AppManager
+2019-04-04 18:59:20,443: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : task.0000 with state SCHEDULING synced with AppManager
+2019-04-04 18:59:20,444: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : INFO    : Transition of task.0000 to new state SCHEDULING successful
+2019-04-04 18:59:20,445: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : Attempting to sync task.0000 with state SCHEDULED with AppManager
+2019-04-04 18:59:20,453: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : task.0000 with state SCHEDULED synced with AppManager
+2019-04-04 18:59:20,454: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : INFO    : Transition of task.0000 to new state SCHEDULED successful
+2019-04-04 18:59:20,454: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : Task task.0000 published to pending queue
+2019-04-04 18:59:20,454: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : Attempting to sync stage.0000 with state SCHEDULED with AppManager
+2019-04-04 18:59:20,460: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : DEBUG   : stage.0000 with state SCHEDULED synced with AppManager
+2019-04-04 18:59:20,462: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : INFO    : Transition of stage.0000 to new state SCHEDULED successful
+2019-04-04 20:37:33,087: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Got finished task task.0000 from queue
+2019-04-04 20:37:33,088: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : Attempting to sync task.0000 with state DEQUEUEING with AppManager
+2019-04-04 20:37:33,094: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : task.0000 with state DEQUEUEING synced with AppManager
+2019-04-04 20:37:33,095: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Transition of task.0000 to new state DEQUEUEING successful
+2019-04-04 20:37:33,096: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : Found parent pipeline: pipeline.0000
+2019-04-04 20:37:33,097: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : Found parent stage: stage.0000
+2019-04-04 20:37:33,097: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : Attempting to sync task.0000 with state DEQUEUED with AppManager
+2019-04-04 20:37:33,101: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : task.0000 with state DEQUEUED synced with AppManager
+2019-04-04 20:37:33,102: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Transition of task.0000 to new state DEQUEUED successful
+2019-04-04 20:37:33,102: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : Attempting to sync task.0000 with state DONE with AppManager
+2019-04-04 20:37:33,107: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : task.0000 with state DONE synced with AppManager
+2019-04-04 20:37:33,107: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Transition of task.0000 to new state DONE successful
+2019-04-04 20:37:33,107: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : Attempting to sync stage.0000 with state DONE with AppManager
+2019-04-04 20:37:33,154: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : stage.0000 with state DONE synced with AppManager
+2019-04-04 20:37:33,154: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Transition of stage.0000 to new state DONE successful
+2019-04-04 20:37:33,154: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : Attempting to sync pipeline.0000 with state DONE with AppManager
+2019-04-04 20:37:33,159: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : DEBUG   : pipeline.0000 with state DONE synced with AppManager
+2019-04-04 20:37:33,159: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Transition of pipeline.0000 to new state DONE successful
+2019-04-04 20:37:33,159: radical.entk.wfprocessor.0000: MainProcess                     : MainThread     : DEBUG   : Attempting to end WFprocessor... event: False
+2019-04-04 20:37:33,159: radical.entk.wfprocessor.0000: wfprocessor                     : MainThread     : INFO    : Terminating enqueue-thread
+2019-04-04 20:37:33,160: radical.entk.wfprocessor.0000: wfprocessor                     : enqueue-thread : INFO    : Enqueue thread terminated
+2019-04-04 20:37:33,163: radical.entk.wfprocessor.0000: wfprocessor                     : MainThread     : INFO    : Terminating dequeue-thread
+2019-04-04 20:37:33,163: radical.entk.wfprocessor.0000: wfprocessor                     : dequeue-thread : INFO    : Terminated dequeue thread
+2019-04-04 20:37:33,168: radical.entk.wfprocessor.0000: MainProcess                     : MainThread     : DEBUG   : WFprocessor process terminated

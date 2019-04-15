@@ -1,0 +1,7 @@
+2019-04-05 10:43:40,519: umgr.staging.output.queue.output.0000: umgr.0000.staging.output.0      : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-05 10:43:40,520: umgr.staging.output.queue.output.0000: umgr.0000.staging.output.0      : Thread-1       : INFO    :                      pid/tid: 26147/Thread-1
+2019-04-05 10:43:40,520: umgr.staging.output.queue.output.0000: umgr.0000.staging.output.0      : Thread-1       : INFO    : create umgr_staging_output_queue - output - tcp://128.219.134.75:45295
+2019-04-05 10:43:40,520: umgr.staging.output.queue.output.0000: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : start process
+2019-04-05 10:43:40,520: umgr.staging.output.queue.output.0000: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-05 10:43:40,520: umgr.staging.output.queue.output.0000: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-05 10:43:40,520: umgr.staging.output.queue.output.0000: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : process class started (no child)

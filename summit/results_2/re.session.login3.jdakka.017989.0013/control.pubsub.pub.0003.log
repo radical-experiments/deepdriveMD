@@ -1,0 +1,16 @@
+2019-04-03 18:43:32,029: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-03 18:43:32,030: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    :                      pid/tid: 6922/Thread-1
+2019-04-03 18:43:32,030: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    : create control_pubsub - pub - tcp://128.219.134.73:45491
+2019-04-03 18:43:32,030: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : start process
+2019-04-03 18:43:32,030: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-03 18:43:32,030: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-03 18:43:32,030: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : process class started (no child)
+2019-04-03 18:43:32,151: control.pubsub.pub.0003: task-manager                    : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-03 18:43:32,151: control.pubsub.pub.0003: task-manager                    : Thread-1       : INFO    :                      pid/tid: 6870/Thread-1
+2019-04-03 18:43:32,151: control.pubsub.pub.0003: task-manager                    : Thread-1       : INFO    : create control_pubsub - pub - tcp://128.219.134.73:45491
+2019-04-03 18:43:32,152: control.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : start process
+2019-04-03 18:43:32,152: control.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-03 18:43:32,152: control.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-03 18:43:32,152: control.pubsub.pub.0003: task-manager                    : Thread-1       : DEBUG   : process class started (no child)
+2019-04-03 18:44:09,944: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : INFO    : parent stops child  6922 -> None [control.pubsub.pub.0003]
+2019-04-03 18:44:09,944: control.pubsub.pub.0003: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_finalize_parent (NOOP)

@@ -1,0 +1,34 @@
+2019-04-04 23:26:49,394: control.pubsub.sub.0001: pmgr.0000.launching.0           : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:26:49,395: control.pubsub.sub.0001: pmgr.0000.launching.0           : MainThread     : INFO    :                      pid/tid: 1215/MainThread
+2019-04-04 23:26:49,395: control.pubsub.sub.0001: pmgr.0000.launching.0           : MainThread     : INFO    : create control_pubsub - sub - tcp://128.219.134.75:40859
+2019-04-04 23:26:49,395: control.pubsub.sub.0001: pmgr.0000.launching.0           : MainThread     : DEBUG   : start process
+2019-04-04 23:26:49,395: control.pubsub.sub.0001: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:26:49,395: control.pubsub.sub.0001: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:26:49,395: control.pubsub.sub.0001: pmgr.0000.launching.0           : MainThread     : DEBUG   : process class started (no child)
+2019-04-04 23:28:12,201: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:28:12,201: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : INFO    :                      pid/tid: 6470/Thread-1
+2019-04-04 23:28:12,201: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : INFO    : create control_pubsub - sub - tcp://128.219.134.75:40859
+2019-04-04 23:28:12,202: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : start process
+2019-04-04 23:28:12,202: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:28:12,202: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:28:12,202: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : process class started (no child)
+2019-04-04 23:28:13,414: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:28:13,414: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : INFO    :                      pid/tid: 6653/Thread-1
+2019-04-04 23:28:13,415: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : INFO    : create control_pubsub - sub - tcp://128.219.134.75:40859
+2019-04-04 23:28:13,415: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : start process
+2019-04-04 23:28:13,415: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:28:13,415: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:28:13,415: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : process class started (no child)
+2019-04-04 23:28:14,533: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
+2019-04-04 23:28:14,533: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : INFO    :                      pid/tid: 6674/Thread-1
+2019-04-04 23:28:14,533: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : INFO    : create control_pubsub - sub - tcp://128.219.134.75:40859
+2019-04-04 23:28:14,533: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : DEBUG   : start process
+2019-04-04 23:28:14,534: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
+2019-04-04 23:28:14,535: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
+2019-04-04 23:28:14,535: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : DEBUG   : process class started (no child)
+2019-04-05 01:05:31,070: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : INFO    : parent stops child  6653 -> None [control.pubsub.sub.0001]
+2019-04-05 01:05:31,070: control.pubsub.sub.0001: umgr.0000.staging.output.0      : Thread-1       : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 01:05:31,363: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : INFO    : parent stops child  6674 -> None [control.pubsub.sub.0001]
+2019-04-05 01:05:31,363: control.pubsub.sub.0001: umgr.0000.scheduling.0          : Thread-1       : DEBUG   : ru_finalize_parent (NOOP)
+2019-04-05 01:05:32,014: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : INFO    : parent stops child  6470 -> None [control.pubsub.sub.0001]
+2019-04-05 01:05:32,014: control.pubsub.sub.0001: umgr.0000.staging.input.0       : Thread-1       : DEBUG   : ru_finalize_parent (NOOP)
