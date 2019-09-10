@@ -6,7 +6,7 @@
  exp3   VHP              120          100ns     50ps
  exp4   VHP (updated)     60           50ns      50ps
  exp5   VHP (updated)     60           50ns      50ps
- exp6   VHP (updated)    120           50ns      50ps
+ exp6   fs-pep          60-960         50ns      N/A
  exp7   VHP (updated)    240           50ns      50ps
  exp8   VHP (updated)    480           50ns      50ps
 ======  ============= ============ ========= ===============
