@@ -1,0 +1,20 @@
+
+rp.session.login4.hrlee.018243.0011 [120]
+    Agent Nodes         :          0.000     0.000%   !  ['agent']
+    Pilot Startup       :      17124.645     2.637%      ['boot', 'setup_1']
+    Warmup              :        754.578     0.116%      ['warm']
+    Prepare Execution   :         74.503     0.011%      ['exec_queue', 'exec_prep']
+    Pilot Termination   :          0.000     0.000%   !  ['term']
+    Execution RP        :         30.974     0.005%      ['exec_rp', 'exec_sh', 'term_sh', 'term_rp']
+    Execution Cmd       :     479994.080    73.912%      ['exec_cmd']
+    Unschedule          :         16.907     0.003%      ['unschedule']
+    Draining            :       9855.443     1.518%      ['drain']
+    Idle                :      42938.567     6.612%      ['idle']
+    total               :     649414.618   100.000%      
+
+    total               :     649414.618   100.000%
+    over                :      70795.617    10.901%
+    work                :     479994.080    73.912%
+    miss                :      98624.921    15.187%
+
+
