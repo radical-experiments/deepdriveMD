@@ -1,0 +1,20 @@
+
+252cpus_12_10_10_10_1tasks_1_1_10_10_1gens [295]
+    Agent Nodes         :          0.000     0.000%   !  ['agent']
+    Pilot Startup       :      28869.111     3.442%      ['boot', 'setup_1']
+    Warmup              :       2560.192     0.305%      ['warm']
+    Prepare Execution   :        328.393     0.039%      ['exec_queue', 'exec_prep']
+    Pilot Termination   :          0.000     0.000%   !  ['term']
+    Execution RP        :         73.693     0.009%      ['exec_rp', 'exec_sh', 'term_sh', 'term_rp']
+    Execution Cmd       :     396637.251    47.293%      ['exec_cmd']
+    Unschedule          :         32.530     0.004%      ['unschedule']
+    Draining            :     326067.400    38.878%      ['drain']
+    Idle                :      44249.984     5.276%      ['idle']
+    total               :     838689.053   100.000%      
+
+    total               :     838689.053   100.000%
+    over                :     402181.303    47.954%
+    work                :     396637.251    47.293%
+    miss                :      39870.499     4.754%
+
+
