@@ -24,7 +24,7 @@ export RADICAL_ENTK_PROFILE=True
 
 md_counts = 60  #8 #12
 ml_counts = 10  #4 #10
-node_counts = md_counts #2 #md_counts // 6
+node_counts = md_counts // 6 #2 #md_counts // 6
 
 
 HOME = os.environ.get('HOME')
