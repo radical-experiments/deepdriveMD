@@ -32,7 +32,7 @@ conda_path = os.environ.get('CONDA_PREFIX')
 base_path = os.path.abspath('.') # '/gpfs/alpine/proj-shared/bip179/entk/hyperspace/microscope/experiments/'
 
 CUR_STAGE=0
-MAX_STAGE=0 #1 #10
+MAX_STAGE=10 #1 #10
 RETRAIN_FREQ = 5 #1 #5
 
 LEN_initial = 10 #5 #10
