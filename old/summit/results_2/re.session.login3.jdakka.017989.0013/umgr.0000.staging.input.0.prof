@@ -1,4 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1554331411.8263,sync_abs,umgr.0000.staging.input.0,Thread-1,,,login3.summit.olcf.ornl.gov:127.0.0.1:1554331411.78:1554331411.79:ntp
-1554331411.9343,END,umgr.0000.staging.input.0,Thread-1,,,
-1554331412.1531,component_init,umgr.0000.staging.input.0,Thread-1,,,

@@ -1,9 +1,0 @@
-2019-04-04 23:26:49,420: state.pubsub.pub.0002: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
-2019-04-04 23:26:49,420: state.pubsub.pub.0002: MainProcess                     : MainThread     : INFO    :                      pid/tid: 917/MainThread
-2019-04-04 23:26:49,420: state.pubsub.pub.0002: MainProcess                     : MainThread     : INFO    : create state_pubsub - pub - tcp://128.219.134.75:35793
-2019-04-04 23:26:49,421: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : start process
-2019-04-04 23:26:49,421: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2019-04-04 23:26:49,421: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2019-04-04 23:26:49,421: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
-2019-04-05 01:05:55,232: state.pubsub.pub.0002: MainProcess                     : MainThread     : INFO    : parent stops child  917 -> None [state.pubsub.pub.0002]
-2019-04-05 01:05:55,232: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

@@ -1,7 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1537542799.3613,sync_abs,update.0,MainThread,,,localhost.localdomain:138.201.86.166:1537542799.35:1537542799.35:ntp
-1537542799.3698,END,update.0,MainThread,,,
-1537542800.2432,component_init,update.0,MainThread,,,
-1537650821.1618,flush,update.0,MainThread,,,
-1537650821.2040,component_final,update.0,MainThread,,,
-1537650821.2040,END,update.0,MainThread,,,

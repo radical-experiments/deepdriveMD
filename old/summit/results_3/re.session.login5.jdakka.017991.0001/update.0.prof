@@ -1,7 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1554475338.7212,sync_abs,update.0,MainThread,,,login5.summit.olcf.ornl.gov:127.0.0.1:1554475338.69:1554475338.7:ntp
-1554475338.7804,END,update.0,MainThread,,,
-1554475339.0700,component_init,update.0,MainThread,,,
-1554481286.1933,flush,update.0,MainThread,,,
-1554481286.1970,component_final,update.0,MainThread,,,
-1554481286.1970,END,update.0,MainThread,,,

@@ -1,7 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1554418679.7563,sync_abs,pmgr.0000.launching.0,MainThread,,,login5.summit.olcf.ornl.gov:127.0.0.1:1554418679.73:1554418679.74:ntp
-1554418679.8035,END,pmgr.0000.launching.0,MainThread,,,
-1554418679.9474,component_init,pmgr.0000.launching.0,MainThread,,,
-1554424713.4831,flush,pmgr.0000.launching.0,MainThread,,,
-1554424713.4871,component_final,pmgr.0000.launching.0,MainThread,,,
-1554424713.4871,END,pmgr.0000.launching.0,MainThread,,,

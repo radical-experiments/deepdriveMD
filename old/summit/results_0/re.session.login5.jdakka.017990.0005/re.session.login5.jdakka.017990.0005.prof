@@ -1,7 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1554418678.1827,sync_abs,re.session.login5.jdakka.017990.0005,MainThread,,,login5.summit.olcf.ornl.gov:127.0.0.1:1554418678.16:1554418678.17:ntp
-1554418678.4244,config_parser_start,re.session.login5.jdakka.017990.0005,MainThread,re.session.login5.jdakka.017990.0005,,
-1554418678.6393,config_parser_stop,re.session.login5.jdakka.017990.0005,MainThread,re.session.login5.jdakka.017990.0005,,
-1554424713.3469,session_close,re.session.login5.jdakka.017990.0005,MainThread,re.session.login5.jdakka.017990.0005,,
-1554424719.4764,session_stop,re.session.login5.jdakka.017990.0005,MainThread,re.session.login5.jdakka.017990.0005,,
-1554424719.4764,END,re.session.login5.jdakka.017990.0005,MainThread,,,

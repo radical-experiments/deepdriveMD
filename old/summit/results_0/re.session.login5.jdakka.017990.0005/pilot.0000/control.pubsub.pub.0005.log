@@ -1,9 +1,0 @@
-2019-04-04 18:59:11,204: control.pubsub.pub.0005: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.5 (default, May 31 2018, 09:45:54) [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
-2019-04-04 18:59:11,205: control.pubsub.pub.0005: MainProcess                     : MainThread     : INFO    :                      pid/tid: 121207/MainThread
-2019-04-04 18:59:11,205: control.pubsub.pub.0005: MainProcess                     : MainThread     : INFO    : create control_pubsub - pub - tcp://128.219.134.82:46473
-2019-04-04 18:59:11,205: control.pubsub.pub.0005: MainProcess                     : MainThread     : DEBUG   : start process
-2019-04-04 18:59:11,205: control.pubsub.pub.0005: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2019-04-04 18:59:11,205: control.pubsub.pub.0005: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2019-04-04 18:59:11,205: control.pubsub.pub.0005: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
-2019-04-04 20:38:23,429: control.pubsub.pub.0005: MainProcess                     : MainThread     : INFO    : parent stops child  121207 -> None [control.pubsub.pub.0005]
-2019-04-04 20:38:23,429: control.pubsub.pub.0005: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

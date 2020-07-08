@@ -1,7 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1554331405.4716,sync_abs,agent_0.staging.output.0,MainThread,,,batch5.summit.olcf.ornl.gov:127.0.0.1:1554331405.44:1554331405.44:ntp
-1554331405.5481,END,agent_0.staging.output.0,MainThread,,,
-1554331405.6950,component_init,agent_0.staging.output.0,MainThread,,,
-1554331472.8639,flush,agent_0.staging.output.0,agent_0.idler._check_units_cb,,,
-1554331472.8665,component_final,agent_0.staging.output.0,agent_0.idler._check_units_cb,,,
-1554331472.8665,END,agent_0.staging.output.0,agent_0.idler._check_units_cb,,,

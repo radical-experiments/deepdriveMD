@@ -1,7 +1,0 @@
-2019-04-04 18:59:11,055: agent.unschedule.pubsub.pub.0000: agent_0.executing.0             : MainThread     : INFO    : python.interpreter   version: 2.7.5 (default, May 31 2018, 09:45:54) [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
-2019-04-04 18:59:11,055: agent.unschedule.pubsub.pub.0000: agent_0.executing.0             : MainThread     : INFO    :                      pid/tid: 121402/MainThread
-2019-04-04 18:59:11,055: agent.unschedule.pubsub.pub.0000: agent_0.executing.0             : MainThread     : INFO    : create agent_unschedule_pubsub - pub - tcp://128.219.134.82:46105
-2019-04-04 18:59:11,056: agent.unschedule.pubsub.pub.0000: agent_0.executing.0             : MainThread     : DEBUG   : start process
-2019-04-04 18:59:11,056: agent.unschedule.pubsub.pub.0000: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2019-04-04 18:59:11,056: agent.unschedule.pubsub.pub.0000: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2019-04-04 18:59:11,056: agent.unschedule.pubsub.pub.0000: agent_0.executing.0             : MainThread     : DEBUG   : process class started (no child)

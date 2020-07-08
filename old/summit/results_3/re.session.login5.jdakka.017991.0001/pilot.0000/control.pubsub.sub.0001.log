@@ -1,9 +1,0 @@
-2019-04-05 10:43:30,156: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : INFO    : python.interpreter   version: 2.7.5 (default, May 31 2018, 09:45:54) [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
-2019-04-05 10:43:30,157: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : INFO    :                      pid/tid: 7711/MainThread
-2019-04-05 10:43:30,157: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : INFO    : create control_pubsub - sub - tcp://128.219.134.82:35201
-2019-04-05 10:43:30,158: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : start process
-2019-04-05 10:43:30,158: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2019-04-05 10:43:30,158: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2019-04-05 10:43:30,158: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : process class started (no child)
-2019-04-05 12:21:11,458: control.pubsub.sub.0001: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: INFO    : parent stops child  7711 -> None [control.pubsub.sub.0001]
-2019-04-05 12:21:11,459: control.pubsub.sub.0001: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: DEBUG   : ru_finalize_parent (NOOP)

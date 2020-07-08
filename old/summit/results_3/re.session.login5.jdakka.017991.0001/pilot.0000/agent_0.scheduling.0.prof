@@ -1,7 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1554475408.1183,sync_abs,agent_0.scheduling.0,MainThread,,,batch2.summit.olcf.ornl.gov:127.0.0.1:1554475408.09:1554475408.1:ntp
-1554475408.1814,END,agent_0.scheduling.0,MainThread,,,
-1554475408.3734,component_init,agent_0.scheduling.0,MainThread,,,
-1554481272.1446,flush,agent_0.scheduling.0,MainThread,,,
-1554481272.1478,component_final,agent_0.scheduling.0,MainThread,,,
-1554481272.1478,END,agent_0.scheduling.0,MainThread,,,

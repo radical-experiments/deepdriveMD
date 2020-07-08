@@ -1,7 +1,0 @@
-2019-04-03 18:41:40,882: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
-2019-04-03 18:41:40,882: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : INFO    :                      pid/tid: 2674/MainThread
-2019-04-03 18:41:40,882: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : INFO    : create pmgr_launching_queue - input - tcp://128.219.134.73:42667
-2019-04-03 18:41:40,882: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : start process
-2019-04-03 18:41:40,882: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2019-04-03 18:41:40,883: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2019-04-03 18:41:40,883: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : process class started (no child)

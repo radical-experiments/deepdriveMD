@@ -1,9 +1,0 @@
-2019-04-03 18:43:26,066: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    : python.interpreter   version: 2.7.5 (default, May 31 2018, 09:45:54) [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
-2019-04-03 18:43:26,067: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    :                      pid/tid: 34897/MainThread
-2019-04-03 18:43:26,067: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    : create agent_schedule_pubsub - sub - tcp://128.219.134.85:41861
-2019-04-03 18:43:26,067: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : start process
-2019-04-03 18:43:26,067: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2019-04-03 18:43:26,067: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2019-04-03 18:43:26,067: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)
-2019-04-03 18:44:33,048: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : parent stops child  34897 -> None [agent.schedule.pubsub.sub.0000]
-2019-04-03 18:44:33,048: agent.schedule.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_finalize_parent (NOOP)

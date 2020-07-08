@@ -1,7 +1,0 @@
-2019-04-05 10:43:40,709: log.pubsub.pub.0006 : task-manager                    : Thread-1       : INFO    : python.interpreter   version: 2.7.15 | packaged by conda-forge | (default, Feb 28 2019, 04:20:34) [GCC 8.2.0]
-2019-04-05 10:43:40,710: log.pubsub.pub.0006 : task-manager                    : Thread-1       : INFO    :                      pid/tid: 26085/Thread-1
-2019-04-05 10:43:40,710: log.pubsub.pub.0006 : task-manager                    : Thread-1       : INFO    : create log_pubsub - pub - tcp://128.219.134.75:42145
-2019-04-05 10:43:40,710: log.pubsub.pub.0006 : task-manager                    : Thread-1       : DEBUG   : start process
-2019-04-05 10:43:40,710: log.pubsub.pub.0006 : task-manager                    : Thread-1       : DEBUG   : ru_initialize_common (NOOP)
-2019-04-05 10:43:40,710: log.pubsub.pub.0006 : task-manager                    : Thread-1       : DEBUG   : ru_initialize_parent (NOOP)
-2019-04-05 10:43:40,710: log.pubsub.pub.0006 : task-manager                    : Thread-1       : DEBUG   : process class started (no child)
