@@ -1,5 +1,14 @@
 ### Description
 
+## Latest runs
+ 
+| System | Session ID                                 | Size    | Walltime |
+| ------ | ------------------------------------------ | ------- | -------- |
+| adrp   | re.session.login4.hrlee.018463.0000.tar.gz | 60 gpus | 6hrs     |
+| fs-pep | re.session.login5.hrlee.018465.0000.tar.gz | 60 gpus | 2hrs     |
+
+## 1st try
+
 | System | Session ID                                 | Size    | Walltime |
 | ------ | ------------------------------------------ | ------- | -------- |
 | adrp   | re.session.login1.hrlee.018425.0016.tar.gz | 60 gpus | 2hrs     |
