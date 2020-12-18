@@ -4,3 +4,4 @@ bba streaming:
 
 bba synchronous:
 - 1st: re.session.login3.braceal.018603.0006
+- 2nd: re.session.login3.hrlee.018614.0023
